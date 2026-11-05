@@ -1,0 +1,363 @@
+import os
+import time
+
+import numpy as np
+import torch
+from tqdm import tqdm
+
+from visgen.utils.general import (
+    AverageMeter,
+    load_checkpoint,
+    plot_reconstructed,
+    save_checkpoint,
+    save_json,
+)
+from .optimizers import get_optimizer
+from .representation_metrics import compute_representation_metrics_on_loader
+
+# brute force switch of image upload
+WRITE_IMAGES = True
+
+
+class BaseTrainer:
+    """"""
+
+    def __init__(self, cfg, device):
+        self.cfg = cfg
+        self.device = device
+
+    # -- extension hooks (no-ops here; see visgen/trainers/crm.py) ---------
+
+    def build_model(self, model, d_dataloaders, writer=None):
+        """Last chance to replace/wrap the model before the optimizer is built."""
+        return model
+
+    def build_optimizer(self, model):
+        return get_optimizer(self.cfg["optimizer"], model.parameters())
+
+    def on_epoch_end(self, model, d_dataloaders, i_epoch, logams):
+        """Extra values to log for this epoch."""
+        return {}
+
+    def finalize(self, model, d_dataloaders, savepath, best_ams, prefix=""):
+        """Extra values to record in results.json after the training loop."""
+        return {}
+
+    def train(self, model, d_dataloaders, savepath, writer=None, prefix=""):
+
+        # create experiment folder
+        os.makedirs(savepath, exist_ok=True)
+
+        # get data loaders
+        train_loader, val_loader, test_loader = (
+            d_dataloaders["training"],
+            d_dataloaders["validation"],
+            d_dataloaders["testing"],
+        )
+        ood_val_keys = [
+            key for key in d_dataloaders.keys() if key.startswith("ood_validation_")
+        ]
+        ood_val_keys = sorted(
+            ood_val_keys, key=lambda key: int(key.split("ood_validation_")[1])
+        )
+        num_ood_sets = len(ood_val_keys)
+        ood_val_loaders = [d_dataloaders[key] for key in ood_val_keys]
+        rep_metrics_cfg = self.cfg.get("representation_metrics", {})
+        if isinstance(rep_metrics_cfg, bool):
+            rep_metrics_cfg = {"enabled": rep_metrics_cfg}
+        rep_metrics_enabled = rep_metrics_cfg.get("enabled", False)
+        # `split` accepts a single name or a list, so the same metrics can be
+        # measured on several splits (e.g. val_4cases and testing) within one
+        # run. Note that `max_samples` is a cap, not a target: a split with
+        # fewer samples than the cap contributes all of them, so the effective
+        # sample count can differ between splits.
+        rep_metrics_splits = rep_metrics_cfg.get("split", "val_4cases")
+        if isinstance(rep_metrics_splits, str):
+            rep_metrics_splits = [rep_metrics_splits]
+        else:
+            rep_metrics_splits = list(rep_metrics_splits)
+        rep_metrics_keep_split_metrics = rep_metrics_cfg.get(
+            "keep_split_metrics", False
+        )
+        extra_eval_loaders = []
+        eval_blacklist = {
+            "training",
+            "validation",
+            "testing",
+        }
+        eval_blacklist |= {f"{s}_raw" for s in rep_metrics_splits}
+        if rep_metrics_enabled and not rep_metrics_keep_split_metrics:
+            eval_blacklist |= set(rep_metrics_splits)
+        eval_blacklist |= set(ood_val_keys)
+        for key in sorted(d_dataloaders.keys()):
+            if key in eval_blacklist:
+                continue
+            extra_eval_loaders.append((key, d_dataloaders[key]))
+        rep_metrics_every = int(rep_metrics_cfg.get("every_n_epochs", 1))
+        rep_metrics_max_samples = rep_metrics_cfg.get("max_samples")
+        rep_metrics_pairwise_max_samples = rep_metrics_cfg.get("pairwise_max_samples")
+        rep_metrics_sampling_seed = rep_metrics_cfg.get("sampling_seed", 0)
+        rep_metrics_var_threshold = float(rep_metrics_cfg.get("variance_threshold", 0.9))
+        rep_metrics_obs_metric = rep_metrics_cfg.get("observed_metric", "cosine")
+        kwargs = {"dataset_size": len(train_loader.dataset)}
+        selection_metric = self.cfg.selection_metric
+        best_val_metric = -np.inf if "acc" in selection_metric else np.inf
+        if "test_metric" in self.cfg:
+            test_metric = self.cfg.test_metric
+            best_test_metric = -np.inf if "acc" in test_metric else np.inf
+        else:
+            test_metric, best_test_metric = None, None
+        best_ams = {}
+
+        # allow a subclass to wrap the model (must happen before the optimizer
+        # is built, so that any parameters it adds are actually optimized)
+        model = self.build_model(model, d_dataloaders, writer=writer)
+
+        # init optimizer
+        optimizer = self.build_optimizer(model)
+
+        # init varia
+        metrics = model.get_logged_metrics()
+        amp_scaler = (
+            torch.amp.GradScaler("cuda") if self.cfg.get("fp-16", False) else None
+        )
+        grad_accum_steps = int(self.cfg.get("grad_accum_steps", 1))
+        if grad_accum_steps < 1:
+            raise ValueError("training.grad_accum_steps must be >= 1")
+
+        # CHECKPOINTING
+        # handle training re-start or continuation
+        model_best = os.path.join(savepath, "model_best.pth.tar")
+        model_last = os.path.join(savepath, "checkpoint.pth.tar")
+        os.path.join(savepath, "results.json")
+        force_train = self.cfg.get("if_exists", "continue")
+        checkpointing_enabled = bool(self.cfg.get("checkpointing", True))
+        start_epoch = 1
+
+        # Re-train model
+        if force_train == "retrain":
+            try:
+                os.remove(model_last)
+                os.remove(model_best)
+            except Exception:
+                pass
+
+        # Continue training if a model already exists otherwise
+        elif os.path.exists(model_last):
+            model, best_ams, start_epoch, optimizer = load_checkpoint(
+                model_last, model, optimizer, self.device
+            )
+            best_val_metric = best_ams[prefix + selection_metric]
+            print(
+                "\n\n",
+                f"Found trained model in {model_last},",
+                f"from epoch {start_epoch} with best {prefix + selection_metric}: {best_val_metric}.",
+                "Loading it and continuing training!",
+                "\n\n",
+            )
+
+        # plot debug plots before starting training, if the model supports it
+        if callable(getattr(model, "plot_debug", None)):
+            images, captions = model.plot_debug(next(iter(train_loader))[0], savepath)
+            write_images = getattr(writer, "write_images", None)
+            if callable(write_images) and WRITE_IMAGES:
+                writer.write_images(images, captions)
+
+        # TRAINING LOOP
+        for i_epoch in range(start_epoch, self.cfg["n_epoch"] + 1):
+            ams = {}
+            splits = ["train", "val", "test"] + [
+                f"ood_val_{i}" for i in range(num_ood_sets)
+            ]
+            splits += [name for name, _ in extra_eval_loaders]
+            for split in splits:
+                ams |= {f"{split}_{m}": AverageMeter(m) for m in metrics}
+            start = time.time()
+
+            # training steps
+            model.train()
+            optimizer.zero_grad(set_to_none=True)
+            num_train_batches = len(train_loader)
+            for i_batch, (x, y) in enumerate(
+                tqdm(train_loader, disable=not self.cfg["verbose"]), start=1
+            ):
+                step_optimizer = (
+                    i_batch % grad_accum_steps == 0 or i_batch == num_train_batches
+                )
+                d_train = model.train_step(
+                    x=x.to(self.device),
+                    y=y.to(self.device),
+                    optimizer=optimizer,
+                    amp_scaler=amp_scaler,
+                    step_optimizer=step_optimizer,
+                    grad_accum_steps=grad_accum_steps,
+                    **kwargs,
+                )
+                for k, v in d_train.items():
+                    ams[f"train_{k}"].update(v)
+
+            # evaluation steps
+            model.eval()
+            loaders = [
+                ("val", val_loader),
+                ("test", test_loader),
+            ]
+            loaders += [
+                (f"ood_val_{i}", loader) for i, loader in enumerate(ood_val_loaders)
+            ]
+            loaders += extra_eval_loaders
+            for name, loader in loaders:
+                for x, y in tqdm(loader, disable=not self.cfg["verbose"]):
+                    d_val = model.validation_step(
+                        x=x.to(self.device), y=y.to(self.device)
+                    )
+                    for k, v in d_val.items():
+                        ams[f"{name}_{k}"].update(v)
+
+            # compute OOD val accuracy on all the validation splits
+            if selection_metric == "min_ood_val_acc":
+                ood_val_accs = [
+                    ams[f"ood_val_{i}_acc"].avg for i in range(num_ood_sets)
+                ]
+                if "min_ood_val_acc" not in ams:
+                    ams["min_ood_val_acc"] = AverageMeter("min_ood_val_acc")
+                ams["min_ood_val_acc"].update(min(ood_val_accs))
+            elif selection_metric == "wio_acc":
+                ood_val_accs = [
+                    ams[f"ood_val_{i}_acc"].avg for i in range(num_ood_sets)
+                ]
+                if "wio_acc" not in ams:
+                    ams["wio_acc"] = AverageMeter("wio_acc")
+                ams["wio_acc"].update(
+                    ams["val_acc"].avg + (min(ood_val_accs) - 100) / 10
+                )
+
+            if "acc" in selection_metric:
+                best_model = ams[selection_metric].avg >= best_val_metric
+            else:
+                best_model = ams[selection_metric].avg <= best_val_metric
+
+            logams = {prefix + k: v.avg for k, v in ams.items()}
+            if (
+                rep_metrics_enabled
+                and i_epoch % max(rep_metrics_every, 1) == 0
+            ):
+                for rep_metrics_split in rep_metrics_splits:
+                    rep_metrics_loader = d_dataloaders.get(
+                        f"{rep_metrics_split}_raw",
+                        d_dataloaders.get(rep_metrics_split),
+                    )
+                    if rep_metrics_loader is None:
+                        continue
+                    rep_metrics = compute_representation_metrics_on_loader(
+                        model=model,
+                        loader=rep_metrics_loader,
+                        device=self.device,
+                        max_samples=rep_metrics_max_samples,
+                        pairwise_max_samples=rep_metrics_pairwise_max_samples,
+                        sampling_seed=rep_metrics_sampling_seed,
+                        variance_threshold=rep_metrics_var_threshold,
+                        observed_metric=rep_metrics_obs_metric,
+                    )
+                    if rep_metrics is not None:
+                        for key, value in rep_metrics.items():
+                            logams[f"{prefix}{rep_metrics_split}_{key}"] = value
+            logams |= self.on_epoch_end(model, d_dataloaders, i_epoch, logams)
+            plot_train = None
+            plot_test = None
+
+            if self.cfg["objective"] == "reconstruction":
+                # log visualizations
+                x_vis_train = next(iter(train_loader))[0].to(self.device)
+                x_vis_test = next(iter(test_loader))[0].to(self.device)
+                x_vis_train, x_vis_test = model.preprocessing(
+                    x_vis_train
+                ), model.preprocessing(x_vis_test)
+                x_recon_train = model.visualization_step(x_vis_train)["img"]
+                x_recon_test = model.visualization_step(x_vis_test)["img"]
+                plot_train = plot_reconstructed(x_vis_train, x_recon_train, N=6)
+                plot_test = plot_reconstructed(x_vis_test, x_recon_test, N=6)
+
+            writer.write(logams)
+            if plot_train is not None and WRITE_IMAGES:
+                writer.write_images([plot_train, plot_test], ["train-img", "test-img"])
+
+            if best_model:
+                best_val_metric = logams[prefix + selection_metric]
+                best_ams = logams
+            if test_metric is not None:
+                current_metric = logams[prefix + test_metric]
+                # record test metric of last epoch
+                best_ams[f"{prefix}last_{test_metric}"] = current_metric
+
+                # record best test metric value to compare against value achieved by selected model
+                is_accuracy_metric = "acc" in test_metric
+                if (is_accuracy_metric and current_metric > best_test_metric) or (
+                    not is_accuracy_metric and current_metric < best_test_metric
+                ):
+                    best_test_metric = current_metric
+                best_ams[f"{prefix}best_{test_metric}"] = best_test_metric
+
+            if checkpointing_enabled:
+                save_checkpoint(
+                    model=model,
+                    epoch=i_epoch,
+                    is_best=best_model,
+                    savepath=savepath,
+                    best_ams=best_ams,
+                    optimizer=optimizer,
+                )
+
+            # End of epoch, log results
+            epoch_log_lines = []
+            for k, v in sorted(logams.items()):
+                if isinstance(v, (float, int, np.floating, np.integer)):
+                    epoch_log_lines.append(f"{k}: {float(v):.6f}")
+                else:
+                    epoch_log_lines.append(f"{k}: {v}")
+            print(
+                f"Epoch [{i_epoch:d}]\n   "
+                + "\n   ".join(epoch_log_lines)
+                + f"\n   elapsed: {(time.time() - start):.1f}"
+                + f"\n   best model: {best_model}"
+            )
+        # END TRAINING LOOP
+
+        final = self.finalize(model, d_dataloaders, savepath, best_ams, prefix=prefix)
+        if final:
+            best_ams |= final
+            if writer is not None:
+                writer.write(final)
+
+        # save metrics summary
+        save_json(os.path.join(savepath, "results.json"), best_ams)
+
+        # # post-training logs
+        # model.eval()
+        # if callable(getattr(model, "confusion_matrix", None)):
+        #     images, captions = model.confusion_matrix(test_loader)
+        #     if callable(getattr(writer, "write_images", None)) and WRITE_IMAGES:
+        #         writer.write_images(images, captions)
+
+        return model, best_ams
+
+class MultiStepTrainer:
+    """"""
+
+    def __init__(self, cfg, device):
+        self.cfg = cfg
+        self.device = device
+
+    def train(self, model, d_dataloaders, savepath, writer=None):
+        results = {}
+        for step in self.cfg.steps:
+            name = step["objective"]
+            print(f"Step: {name}")
+            savepath_step = os.path.join(savepath, name)
+            trainer = BaseTrainer(step, self.device)
+            model, best_ams = trainer.train(
+                model, d_dataloaders, savepath_step, writer, prefix=f"{name}/"
+            )
+            results = results | best_ams
+            model.next_step()
+        return model, results

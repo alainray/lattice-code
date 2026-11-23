@@ -53,9 +53,11 @@ with the ones of your own cluster. Paths use `$HOME` and `/scratch/USER`.
 
 ## Datasets
 
-Not included. `data/README.md` in the original repository lists the sources for
-Cars3D, dSprites, MPI3D, CLEVR, I-RAVEN and Shapes3D; the config files expect
-them under `data/<dataset>/`.
+Not included. The instructions to download Cars3D, dSprites, MPI3D and
+Shapes3D, and to generate the CLEVR and I-RAVEN versions used in the paper, are
+in [`data/README.md`](https://github.com/IBM/scalable-compositional-generalization/blob/main/data/README.md)
+of the original repository; the I-RAVEN extraction script it uses is in that
+repository as well. The config files expect the datasets under `data/<dataset>/`.
 
 ## Credits
 

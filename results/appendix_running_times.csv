@@ -1,0 +1,73 @@
+model,dataset,median_hours_max_launch,median_hm_max_launch,median_hours_first_launch,median_hm_first_launch,gpu,per_epoch_metrics,max_wandb_launches,n
+ResNet-18,cars3d,1.5300,1h32m,1.5300,1h32m,R,si,1,5
+ResNet-18,dsprites,7.3975,7h24m,0.0000,0m,R,si,2,5
+ResNet-18,mpi3d,6.4719,6h28m,6.4719,6h28m,H,si,1,5
+ResNet-18,clevr,5.8267,5h50m,5.8267,5h50m,R,si,1,5
+ResNet-18,iraven,2.0283,2h02m,2.0283,2h02m,R,si,1,5
+ResNet-18,shapes3d,7.8311,7h50m,7.8311,7h50m,R,si,1,5
+ResNet-18 + CRM,cars3d,7.8639,7h52m,7.8639,7h52m,A,si,1,5
+ResNet-18 + CRM,dsprites,1.4539,1h27m,1.4539,1h27m,A,si,1,5
+ResNet-18 + CRM,mpi3d,4.2322,4h14m,4.2322,4h14m,H,si,1,5
+ResNet-18 + CRM,clevr,3.1314,3h08m,3.1314,3h08m,H,si,1,5
+ResNet-18 + CRM,iraven,1.2861,1h17m,1.2861,1h17m,A,si,1,5
+ResNet-18 + CRM,shapes3d,1.6886,1h41m,1.6886,1h41m,A,si,1,5
+ResNet-18 + LATTICE,cars3d,5.3439,5h21m,5.3439,5h21m,H,si,1,5
+ResNet-18 + LATTICE,dsprites,1.0017,1h00m,1.0017,1h00m,H,si,1,5
+ResNet-18 + LATTICE,mpi3d,2.3869,2h23m,2.3869,2h23m,H,si,1,5
+ResNet-18 + LATTICE,clevr,3.8014,3h48m,3.8014,3h48m,H,si,1,5
+ResNet-18 + LATTICE,iraven,0.6719,40m,0.6719,40m,H,si,1,5
+ResNet-18 + LATTICE,shapes3d,1.0103,1h01m,1.0103,1h01m,H,si,1,5
+ResNet-18 + CRM + LATTICE,cars3d,0.5956,36m,0.5956,36m,A,no,1,5
+ResNet-18 + CRM + LATTICE,dsprites,1.6472,1h39m,1.6472,1h39m,A,no,1,5
+ResNet-18 + CRM + LATTICE,mpi3d,4.6981,4h42m,4.6981,4h42m,H,si,1,5
+ResNet-18 + CRM + LATTICE,clevr,3.5661,3h34m,3.5661,3h34m,H,si,1,5
+ResNet-18 + CRM + LATTICE,iraven,1.1731,1h10m,1.1731,1h10m,A,no,1,5
+ResNet-18 + CRM + LATTICE,shapes3d,1.6353,1h38m,1.6353,1h38m,A,no,1,5
+AIN,cars3d,6.4653,6h28m,6.4653,6h28m,H,si,1,5
+AIN,dsprites,1.7031,1h42m,1.7031,1h42m,H,si,1,5
+AIN,mpi3d,4.1208,4h07m,4.1208,4h07m,H,si,1,5
+AIN,clevr,6.9208,6h55m,6.9208,6h55m,H,si,1,5
+AIN,iraven,0.7581,45m,0.7581,45m,H,si,1,5
+AIN,shapes3d,1.9689,1h58m,1.9689,1h58m,H,si,1,5
+AIN + CRM,cars3d,9.4306,9h26m,9.4306,9h26m,A,si,1,5
+AIN + CRM,dsprites,6.0461,6h03m,6.0461,6h03m,A,si,1,5
+AIN + CRM,mpi3d,9.2669,9h16m,9.2669,9h16m,H,si,1,5
+AIN + CRM,clevr,7.2478,7h15m,7.2478,7h15m,H,si,1,5
+AIN + CRM,iraven,1.9536,1h57m,1.9536,1h57m,A,si,1,5
+AIN + CRM,shapes3d,5.9714,5h58m,5.9714,5h58m,A,si,1,5
+AIN + LATTICE,cars3d,1.2886,1h17m,1.2886,1h17m,A,mixto,1,5
+AIN + LATTICE,dsprites,5.0331,5h02m,5.0331,5h02m,A,no,1,5
+AIN + LATTICE,mpi3d,3.1047,3h06m,3.1047,3h06m,H,no,2,5
+AIN + LATTICE,clevr,4.4239,4h25m,4.4239,4h25m,H,no,1,5
+AIN + LATTICE,iraven,1.5717,1h34m,1.5717,1h34m,A,mixto,1,5
+AIN + LATTICE,shapes3d,3.6317,3h38m,3.6317,3h38m,A,no,1,5
+AIN + CRM + LATTICE,cars3d,2.5250,2h32m,2.5250,2h32m,A,no,1,5
+AIN + CRM + LATTICE,dsprites,11.2906,11h17m,5.6872,5h41m,A,no,2,5
+AIN + CRM + LATTICE,mpi3d,9.4067,9h24m,9.4067,9h24m,H,si,1,5
+AIN + CRM + LATTICE,clevr,7.3689,7h22m,7.3689,7h22m,H,si,1,5
+AIN + CRM + LATTICE,iraven,2.0397,2h02m,2.0397,2h02m,A,no,1,5
+AIN + CRM + LATTICE,shapes3d,9.2342,9h14m,5.3567,5h21m,A,no,2,5
+ED,cars3d,6.3042,6h18m,6.3042,6h18m,H,si,1,5
+ED,dsprites,1.7164,1h43m,1.7164,1h43m,H,si,1,5
+ED,mpi3d,5.5819,5h35m,5.5819,5h35m,H,si,1,5
+ED,clevr,6.7972,6h48m,6.7972,6h48m,H,si,1,5
+ED,iraven,0.7642,46m,0.7642,46m,H,si,1,5
+ED,shapes3d,1.9856,1h59m,1.9856,1h59m,H,si,1,5
+ED + CRM,cars3d,5.9992,6h00m,5.9992,6h00m,H,si,1,5
+ED + CRM,dsprites,1.8728,1h52m,1.8728,1h52m,H,si,1,5
+ED + CRM,mpi3d,8.9897,8h59m,8.9897,8h59m,H,si,1,5
+ED + CRM,clevr,12.0475,12h03m,12.0475,12h03m,H,si,1,5
+ED + CRM,iraven,0.8367,50m,0.8367,50m,H,si,1,5
+ED + CRM,shapes3d,3.7814,3h47m,3.7814,3h47m,H,si,1,5
+ED + LATTICE,cars3d,7.0014,7h00m,6.5217,6h31m,H,si,2,5
+ED + LATTICE,dsprites,3.1408,3h08m,3.1408,3h08m,H,si,2,5
+ED + LATTICE,mpi3d,7.9892,7h59m,7.8303,7h50m,H,si,2,5
+ED + LATTICE,clevr,7.2583,7h15m,6.4292,6h26m,H,si,2,5
+ED + LATTICE,iraven,1.2031,1h12m,0.9094,55m,H,si,2,5
+ED + LATTICE,shapes3d,3.3358,3h20m,1.8497,1h51m,H,si,2,5
+ED + CRM + LATTICE,cars3d,6.6200,6h37m,6.6200,6h37m,H,si,1,5
+ED + CRM + LATTICE,dsprites,2.1622,2h10m,2.1622,2h10m,H,si,1,5
+ED + CRM + LATTICE,mpi3d,10.6397,10h38m,10.6397,10h38m,H,si,1,5
+ED + CRM + LATTICE,clevr,15.1128,15h07m,15.1128,15h07m,H,si,1,5
+ED + CRM + LATTICE,iraven,0.9275,56m,0.9275,56m,H,si,1,5
+ED + CRM + LATTICE,shapes3d,4.9233,4h55m,4.9233,4h55m,H,si,1,5

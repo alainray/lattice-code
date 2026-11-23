@@ -1,0 +1,73 @@
+model,dataset,parameters_trainable,parameters_b_hat,parameters_all_crm_tables,parameters_bn_buffers,pct_trainable,pct_reported_trainable_plus_b_hat,pct_including_all_tables,source_file
+ResNet-18,cars3d,11284755,0,0,9620,100.00,100.00,100.00,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ResNet-18,dsprites,11207689,0,0,9620,100.00,100.00,100.00,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ResNet-18,mpi3d,11226786,0,0,9620,100.00,100.00,100.00,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ResNet-18,clevr,11184720,0,0,9620,100.00,100.00,100.00,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ResNet-18,iraven,11181013,0,0,9620,100.00,100.00,100.00,metrics/iraven/general_composition_1/resnet18/size_type_color/1/checkpoints/model_best.pth.tar
+ResNet-18,shapes3d,11198058,0,0,9620,100.00,100.00,100.00,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM,cars3d,11284544,9822,54781,9620,100.00,100.09,100.48,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM,dsprites,11207616,5963,48791,9620,100.00,100.05,100.43,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM,mpi3d,11226688,279471,1595743,9620,100.00,102.49,114.21,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM,clevr,11184704,87,463,9620,100.00,100.00,100.00,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM,iraven,11180992,179,959,9620,100.00,100.00,100.01,crm/iraven/general_composition_1/crm_resnet18/size_type_color/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM,shapes3d,11198016,18227,100455,9620,100.00,100.16,100.90,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ResNet-18 + LATTICE,cars3d,11284755,0,0,9620,100.00,100.00,100.00,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ResNet-18 + LATTICE,dsprites,11207689,0,0,9620,100.00,100.00,100.00,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ResNet-18 + LATTICE,mpi3d,11226786,0,0,9620,100.00,100.00,100.00,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ResNet-18 + LATTICE,clevr,11184720,0,0,9620,100.00,100.00,100.00,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ResNet-18 + LATTICE,iraven,11181013,0,0,9620,100.00,100.00,100.00,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/1/checkpoints/model_best.pth.tar
+ResNet-18 + LATTICE,shapes3d,11198058,0,0,9620,100.00,100.00,100.00,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM + LATTICE,cars3d,11284544,9822,54781,9620,100.00,100.09,100.48,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM + LATTICE,dsprites,11207616,5963,48791,9620,100.00,100.05,100.43,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM + LATTICE,mpi3d,11226688,279471,1595743,9620,100.00,102.49,114.21,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM + LATTICE,clevr,11184704,87,463,9620,100.00,100.00,100.00,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM + LATTICE,iraven,11180992,179,959,9620,100.00,100.00,100.01,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/1/checkpoints/model_best.pth.tar
+ResNet-18 + CRM + LATTICE,shapes3d,11198016,18227,100455,9620,100.00,100.16,100.90,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+AIN,cars3d,11916985,0,0,12695,105.60,105.60,105.60,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+AIN,dsprites,11642011,0,0,13720,103.88,103.88,103.88,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+AIN,mpi3d,12022566,0,0,15770,107.09,107.09,107.09,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+AIN,clevr,11780528,0,0,13720,105.33,105.33,105.33,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/1/checkpoints/model_best.pth.tar
+AIN,iraven,11559167,0,0,12695,103.38,103.38,103.38,metrics/iraven/general_composition_1/split_lin/size_type_color/1/checkpoints/model_best.pth.tar
+AIN,shapes3d,11885182,0,0,14745,106.14,106.14,106.14,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+AIN + CRM,cars3d,11916563,9822,54781,12695,105.60,105.69,106.08,metrics/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+AIN + CRM,dsprites,11641865,5963,48791,13720,103.87,103.93,104.31,metrics/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+AIN + CRM,mpi3d,12022370,279471,1595743,15770,107.09,109.58,121.30,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+AIN + CRM,clevr,11780496,87,463,13720,105.33,105.33,105.33,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/1/checkpoints/model_best.pth.tar
+AIN + CRM,iraven,11559125,179,959,12695,103.38,103.38,103.39,metrics/iraven/general_composition_1/crm_split_resnet/size_type_color/1/checkpoints/model_best.pth.tar
+AIN + CRM,shapes3d,11885098,18227,100455,14745,106.14,106.30,107.03,metrics/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+AIN + LATTICE,cars3d,11916985,0,0,12695,105.60,105.60,105.60,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+AIN + LATTICE,dsprites,11642011,0,0,13720,103.88,103.88,103.88,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+AIN + LATTICE,mpi3d,12022566,0,0,15770,107.09,107.09,107.09,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+AIN + LATTICE,clevr,11780528,0,0,13720,105.33,105.33,105.33,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/1/checkpoints/model_best.pth.tar
+AIN + LATTICE,iraven,11559167,0,0,12695,103.38,103.38,103.38,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/1/checkpoints/model_best.pth.tar
+AIN + LATTICE,shapes3d,11885182,0,0,14745,106.14,106.14,106.14,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+AIN + CRM + LATTICE,cars3d,11916563,9822,54781,12695,105.60,105.69,106.08,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+AIN + CRM + LATTICE,dsprites,11641865,5963,48791,13720,103.87,103.93,104.31,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+AIN + CRM + LATTICE,mpi3d,12022370,279471,1595743,15770,107.09,109.58,121.30,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+AIN + CRM + LATTICE,clevr,11780496,87,463,13720,105.33,105.33,105.33,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/1/checkpoints/model_best.pth.tar
+AIN + CRM + LATTICE,iraven,11559125,179,959,12695,103.38,103.38,103.39,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/1/checkpoints/model_best.pth.tar
+AIN + CRM + LATTICE,shapes3d,11885098,18227,100455,14745,106.14,106.30,107.03,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ED,cars3d,34927353,0,0,31935,309.51,309.51,309.51,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ED,dsprites,46048475,0,0,42580,410.87,410.87,410.87,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ED,mpi3d,69356070,0,0,63870,617.77,617.77,617.77,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ED,clevr,46161456,0,0,42580,412.72,412.72,412.72,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ED,iraven,34484415,0,0,31935,308.42,308.42,308.42,metrics/iraven/general_composition_1/split_4_lin/size_type_color/1/checkpoints/model_best.pth.tar
+ED,shapes3d,57735678,0,0,53225,515.59,515.59,515.59,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ED + CRM,cars3d,34926931,9822,54781,31935,309.51,309.59,309.99,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ED + CRM,dsprites,46048329,5963,48791,42580,410.86,410.92,411.30,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ED + CRM,mpi3d,69355874,279471,1595743,63870,617.77,620.26,631.99,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ED + CRM,clevr,46161424,87,463,42580,412.72,412.72,412.72,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ED + CRM,iraven,34484373,179,959,31935,308.42,308.42,308.43,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/1/checkpoints/model_best.pth.tar
+ED + CRM,shapes3d,57735594,18227,100455,53225,515.59,515.75,516.48,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ED + LATTICE,cars3d,34927353,0,0,31935,309.51,309.51,309.51,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ED + LATTICE,dsprites,46048475,0,0,42580,410.87,410.87,410.87,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ED + LATTICE,mpi3d,69356070,0,0,63870,617.77,617.77,617.77,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ED + LATTICE,clevr,46161456,0,0,42580,412.72,412.72,412.72,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ED + LATTICE,iraven,34484415,0,0,31935,308.42,308.42,308.42,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/1/checkpoints/model_best.pth.tar
+ED + LATTICE,shapes3d,57735678,0,0,53225,515.59,515.59,515.59,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar
+ED + CRM + LATTICE,cars3d,34926931,9822,54781,31935,309.51,309.59,309.99,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/1/checkpoints/model_best.pth.tar
+ED + CRM + LATTICE,dsprites,46048329,5963,48791,42580,410.86,410.92,411.30,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/1/checkpoints/model_best.pth.tar
+ED + CRM + LATTICE,mpi3d,69355874,279471,1595743,63870,617.77,620.26,631.99,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/model_best.pth.tar
+ED + CRM + LATTICE,clevr,46161424,87,463,42580,412.72,412.72,412.72,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/1/checkpoints/model_best.pth.tar
+ED + CRM + LATTICE,iraven,34484373,179,959,31935,308.42,308.42,308.43,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/1/checkpoints/model_best.pth.tar
+ED + CRM + LATTICE,shapes3d,57735594,18227,100455,53225,515.59,515.75,516.48,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/1/checkpoints/model_best.pth.tar

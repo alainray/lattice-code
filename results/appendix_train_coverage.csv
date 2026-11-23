@@ -1,0 +1,7 @@
+dataset,training_images,structural_coverage_pct,per_epoch_coverage_pct,source_file
+cars3d,9822,100.0,61.2,quartet_coverage.txt
+dsprites,214668,100.0,60.9,quartet_coverage.txt
+mpi3d,508203,100.0,60.9,quartet_coverage.txt
+clevr,54416,100.0,60.3,quartet_coverage.txt
+iraven,89516,100.0,62.0,quartet_coverage.txt
+shapes3d,246065,100.0,62.0,quartet_coverage.txt

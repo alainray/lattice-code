@@ -1,0 +1,541 @@
+table_row,architecture,variant,dataset,seed,test_accuracy_pct,source_key,source_file
+ResNet-18,ResNet-18,base,cars3d,1,33.660817,test_acc,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18,ResNet-18,base,cars3d,2,32.660415,test_acc,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18,ResNet-18,base,cars3d,3,33.967525,test_acc,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18,ResNet-18,base,cars3d,4,32.745481,test_acc,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18,ResNet-18,base,cars3d,5,32.574200,test_acc,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18,ResNet-18,base,dsprites,1,20.906642,test_acc,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18,ResNet-18,base,dsprites,2,22.009077,test_acc,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18,ResNet-18,base,dsprites,3,20.118188,test_acc,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18,ResNet-18,base,dsprites,4,21.177999,test_acc,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18,ResNet-18,base,dsprites,5,22.295242,test_acc,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18,ResNet-18,base,mpi3d,1,41.950123,test_acc,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18,ResNet-18,base,mpi3d,2,45.224990,test_acc,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18,ResNet-18,base,mpi3d,3,42.715943,test_acc,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18,ResNet-18,base,mpi3d,4,44.832462,test_acc,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18,ResNet-18,base,mpi3d,5,43.543062,test_acc,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18,ResNet-18,base,clevr,1,16.004583,test_acc,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/1/checkpoints/results.json
+ResNet-18,ResNet-18,base,clevr,2,23.748525,test_acc,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/2/checkpoints/results.json
+ResNet-18,ResNet-18,base,clevr,3,26.301620,test_acc,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/3/checkpoints/results.json
+ResNet-18,ResNet-18,base,clevr,4,13.814948,test_acc,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/4/checkpoints/results.json
+ResNet-18,ResNet-18,base,clevr,5,22.150483,test_acc,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/5/checkpoints/results.json
+ResNet-18,ResNet-18,base,iraven,1,11.208377,test_acc,metrics/iraven/general_composition_1/resnet18/size_type_color/1/checkpoints/results.json
+ResNet-18,ResNet-18,base,iraven,2,15.610103,test_acc,metrics/iraven/general_composition_1/resnet18/size_type_color/2/checkpoints/results.json
+ResNet-18,ResNet-18,base,iraven,3,9.200480,test_acc,metrics/iraven/general_composition_1/resnet18/size_type_color/3/checkpoints/results.json
+ResNet-18,ResNet-18,base,iraven,4,14.575253,test_acc,metrics/iraven/general_composition_1/resnet18/size_type_color/4/checkpoints/results.json
+ResNet-18,ResNet-18,base,iraven,5,6.861117,test_acc,metrics/iraven/general_composition_1/resnet18/size_type_color/5/checkpoints/results.json
+ResNet-18,ResNet-18,base,shapes3d,1,84.402791,test_acc,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18,ResNet-18,base,shapes3d,2,83.922400,test_acc,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18,ResNet-18,base,shapes3d,3,84.661685,test_acc,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18,ResNet-18,base,shapes3d,4,87.231509,test_acc,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18,ResNet-18,base,shapes3d,5,83.703842,test_acc,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,cars3d,1,51.788398,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,cars3d,2,52.569883,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,cars3d,3,52.209198,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,cars3d,4,54.703938,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,cars3d,5,53.501653,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,dsprites,1,10.662095,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,dsprites,2,11.556184,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,dsprites,3,12.018367,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,dsprites,4,9.067613,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,dsprites,5,10.473211,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,mpi3d,1,32.106336,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,mpi3d,2,30.809018,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,mpi3d,3,31.980946,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,mpi3d,4,29.247789,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,mpi3d,5,28.257591,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,clevr,1,71.468279,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,clevr,2,71.331875,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,clevr,3,62.648308,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,clevr,4,51.375627,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,clevr,5,63.330331,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,iraven,1,15.888442,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/1/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,iraven,2,16.416890,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/2/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,iraven,3,9.417040,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/3/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,iraven,4,12.819444,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/4/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,iraven,5,8.158434,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/5/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,shapes3d,1,52.065544,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,shapes3d,2,47.206893,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,shapes3d,3,28.123245,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,shapes3d,4,20.479233,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + CRM,ResNet-18,CRM,shapes3d,5,12.403911,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,cars3d,1,49.323715,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,cars3d,2,49.924857,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,cars3d,3,49.909829,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,cars3d,4,55.440337,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,cars3d,5,54.613766,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,dsprites,1,17.874358,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,dsprites,2,15.143367,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,dsprites,3,15.620789,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,dsprites,4,17.181785,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,dsprites,5,16.951596,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,mpi3d,1,54.254355,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,mpi3d,2,53.708105,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,mpi3d,3,59.620696,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,mpi3d,4,56.980099,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,mpi3d,5,53.679934,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,clevr,1,56.085446,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,clevr,2,57.825248,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,clevr,3,61.585382,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,clevr,4,55.526959,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,clevr,5,50.968987,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,iraven,1,21.671362,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/1/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,iraven,2,20.112691,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/2/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,iraven,3,22.666578,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/3/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,iraven,4,17.148716,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/4/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,iraven,5,14.484805,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18/size_type_color/5/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,shapes3d,1,80.631232,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,shapes3d,2,81.853035,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,shapes3d,3,86.048988,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,shapes3d,4,76.547584,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + CRM_loss,ResNet-18,CRM_loss,shapes3d,5,73.094685,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,cars3d,1,53.042616,test_acc,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,cars3d,2,53.055589,test_acc,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,cars3d,3,53.507632,test_acc,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,cars3d,4,53.837605,test_acc,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,cars3d,5,56.513050,test_acc,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,dsprites,1,22.180776,test_acc,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,dsprites,2,18.347568,test_acc,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,dsprites,3,25.192111,test_acc,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,dsprites,4,22.950419,test_acc,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,dsprites,5,25.226931,test_acc,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,mpi3d,1,44.904753,test_acc,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,mpi3d,2,43.205281,test_acc,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,mpi3d,3,43.495079,test_acc,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,mpi3d,4,43.754862,test_acc,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,mpi3d,5,42.469054,test_acc,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,clevr,1,33.667571,test_acc,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,clevr,2,37.766863,test_acc,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,clevr,3,45.543778,test_acc,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,clevr,4,26.378569,test_acc,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,clevr,5,46.082501,test_acc,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,iraven,1,16.288483,test_acc,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/1/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,iraven,2,30.978305,test_acc,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/2/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,iraven,3,28.591742,test_acc,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/3/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,iraven,4,29.939776,test_acc,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/4/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,iraven,5,11.419399,test_acc,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/5/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,shapes3d,1,84.071047,test_acc,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,shapes3d,2,87.218367,test_acc,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,shapes3d,3,91.760172,test_acc,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,shapes3d,4,85.447802,test_acc,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + LATTICE,ResNet-18,LATTICE,shapes3d,5,90.583879,test_acc,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,cars3d,1,73.279231,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,cars3d,2,72.302375,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,cars3d,3,72.152089,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,cars3d,4,74.737001,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,cars3d,5,72.753231,final_test_crm_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,dsprites,1,8.228866,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,dsprites,2,11.296720,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,dsprites,3,13.340552,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,dsprites,4,11.950393,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,dsprites,5,10.764156,final_test_crm_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,mpi3d,1,58.590255,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,mpi3d,2,58.338840,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,mpi3d,3,62.395579,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,mpi3d,4,63.493375,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,mpi3d,5,52.465009,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,clevr,1,72.070519,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,clevr,2,54.718826,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,clevr,3,52.729379,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,clevr,4,67.386437,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,clevr,5,52.858062,final_test_crm_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,iraven,1,29.404704,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/1/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,iraven,2,26.479070,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/2/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,iraven,3,27.252571,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/3/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,iraven,4,29.142981,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/4/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,iraven,5,27.070865,final_test_crm_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/5/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,shapes3d,1,74.561913,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,shapes3d,2,71.946461,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,shapes3d,3,80.392100,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,shapes3d,4,82.274180,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + CRM + LATTICE,ResNet-18,CRM + LATTICE,shapes3d,5,68.265079,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,cars3d,1,56.582507,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,cars3d,2,57.754734,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,cars3d,3,56.642621,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,cars3d,4,64.247070,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,cars3d,5,61.556958,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_resnet18_mixer_l15/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,dsprites,1,24.627847,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,dsprites,2,24.409087,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,dsprites,3,24.692814,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,dsprites,4,23.401508,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,dsprites,5,26.216314,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_resnet18_mixer_l15/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,mpi3d,1,54.718000,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,mpi3d,2,53.141521,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,mpi3d,3,56.010023,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,mpi3d,4,54.072624,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,mpi3d,5,55.797369,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_resnet18_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,clevr,1,68.045297,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,clevr,2,60.712907,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,clevr,3,61.361472,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,clevr,4,54.847510,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,clevr,5,55.480633,final_test_baseline_acc,crm/clevr/general_composition_1/crm_resnet18_mixer_l15/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,iraven,1,30.970044,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/1/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,iraven,2,26.042309,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/2/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,iraven,3,34.927568,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/3/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,iraven,4,32.013603,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/4/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,iraven,5,37.201394,final_test_baseline_acc,crm/iraven/general_composition_1/crm_resnet18_mixer_l15/size_type_color/5/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,shapes3d,1,90.098751,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,shapes3d,2,90.792913,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,shapes3d,3,92.160422,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,shapes3d,4,94.939975,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + CRM_loss + LATTICE,ResNet-18,CRM_loss + LATTICE,shapes3d,5,92.355504,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_resnet18_mixer_l15/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN,AIN,base,cars3d,1,49.288929,test_acc,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/1/checkpoints/results.json
+AIN,AIN,base,cars3d,2,43.950244,test_acc,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/2/checkpoints/results.json
+AIN,AIN,base,cars3d,3,46.797163,test_acc,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/3/checkpoints/results.json
+AIN,AIN,base,cars3d,4,47.897137,test_acc,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/4/checkpoints/results.json
+AIN,AIN,base,cars3d,5,46.187577,test_acc,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/5/checkpoints/results.json
+AIN,AIN,base,dsprites,1,58.834889,test_acc,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN,AIN,base,dsprites,2,58.404441,test_acc,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN,AIN,base,dsprites,3,54.570833,test_acc,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN,AIN,base,dsprites,4,53.745958,test_acc,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN,AIN,base,dsprites,5,53.256676,test_acc,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN,AIN,base,mpi3d,1,54.513847,test_acc,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN,AIN,base,mpi3d,2,54.348700,test_acc,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN,AIN,base,mpi3d,3,56.153587,test_acc,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN,AIN,base,mpi3d,4,63.945559,test_acc,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN,AIN,base,mpi3d,5,68.794899,test_acc,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN,AIN,base,clevr,1,49.599608,test_acc,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/1/checkpoints/results.json
+AIN,AIN,base,clevr,2,41.019339,test_acc,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/2/checkpoints/results.json
+AIN,AIN,base,clevr,3,45.421301,test_acc,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/3/checkpoints/results.json
+AIN,AIN,base,clevr,4,44.955560,test_acc,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/4/checkpoints/results.json
+AIN,AIN,base,clevr,5,55.200610,test_acc,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/5/checkpoints/results.json
+AIN,AIN,base,iraven,1,56.591696,test_acc,metrics/iraven/general_composition_1/split_lin/size_type_color/1/checkpoints/results.json
+AIN,AIN,base,iraven,2,58.137542,test_acc,metrics/iraven/general_composition_1/split_lin/size_type_color/2/checkpoints/results.json
+AIN,AIN,base,iraven,3,57.436422,test_acc,metrics/iraven/general_composition_1/split_lin/size_type_color/3/checkpoints/results.json
+AIN,AIN,base,iraven,4,57.033909,test_acc,metrics/iraven/general_composition_1/split_lin/size_type_color/4/checkpoints/results.json
+AIN,AIN,base,iraven,5,66.811433,test_acc,metrics/iraven/general_composition_1/split_lin/size_type_color/5/checkpoints/results.json
+AIN,AIN,base,shapes3d,1,83.500432,test_acc,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN,AIN,base,shapes3d,2,92.191662,test_acc,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN,AIN,base,shapes3d,3,76.788869,test_acc,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN,AIN,base,shapes3d,4,83.036094,test_acc,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN,AIN,base,shapes3d,5,84.822789,test_acc,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + CRM,AIN,CRM,cars3d,1,55.876165,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/1/checkpoints/results.json
+AIN + CRM,AIN,CRM,cars3d,2,56.657650,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/2/checkpoints/results.json
+AIN + CRM,AIN,CRM,cars3d,3,58.370905,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/3/checkpoints/results.json
+AIN + CRM,AIN,CRM,cars3d,4,58.025248,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/4/checkpoints/results.json
+AIN + CRM,AIN,CRM,cars3d,5,56.462279,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/5/checkpoints/results.json
+AIN + CRM,AIN,CRM,dsprites,1,23.120188,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + CRM,AIN,CRM,dsprites,2,32.462905,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + CRM,AIN,CRM,dsprites,3,29.036935,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + CRM,AIN,CRM,dsprites,4,18.618062,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + CRM,AIN,CRM,dsprites,5,33.784889,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + CRM,AIN,CRM,mpi3d,1,53.559840,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + CRM,AIN,CRM,mpi3d,2,53.133472,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + CRM,AIN,CRM,mpi3d,3,53.802782,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + CRM,AIN,CRM,mpi3d,4,51.138674,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + CRM,AIN,CRM,mpi3d,5,54.668014,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + CRM,AIN,CRM,clevr,1,72.680479,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/1/checkpoints/results.json
+AIN + CRM,AIN,CRM,clevr,2,68.099344,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/2/checkpoints/results.json
+AIN + CRM,AIN,CRM,clevr,3,64.586282,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/3/checkpoints/results.json
+AIN + CRM,AIN,CRM,clevr,4,67.069875,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/4/checkpoints/results.json
+AIN + CRM,AIN,CRM,clevr,5,75.485781,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/5/checkpoints/results.json
+AIN + CRM,AIN,CRM,iraven,1,50.462600,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/1/checkpoints/results.json
+AIN + CRM,AIN,CRM,iraven,2,42.182473,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/2/checkpoints/results.json
+AIN + CRM,AIN,CRM,iraven,3,50.912698,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/3/checkpoints/results.json
+AIN + CRM,AIN,CRM,iraven,4,49.902479,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/4/checkpoints/results.json
+AIN + CRM,AIN,CRM,iraven,5,53.194859,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/5/checkpoints/results.json
+AIN + CRM,AIN,CRM,shapes3d,1,53.332849,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + CRM,AIN,CRM,shapes3d,2,58.151806,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + CRM,AIN,CRM,shapes3d,3,51.809468,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + CRM,AIN,CRM,shapes3d,4,49.620002,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + CRM,AIN,CRM,shapes3d,5,43.064672,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,cars3d,1,61.481816,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/1/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,cars3d,2,58.761647,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/2/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,cars3d,3,62.233244,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/3/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,cars3d,4,64.006613,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/4/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,cars3d,5,61.617073,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet/elevation_type_orientation/5/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,dsprites,1,51.759905,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,dsprites,2,55.377567,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,dsprites,3,51.912897,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,dsprites,4,54.547842,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,dsprites,5,56.711582,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,mpi3d,1,73.077005,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,mpi3d,2,61.471677,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,mpi3d,3,76.631761,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,mpi3d,4,61.274908,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,mpi3d,5,61.108428,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,clevr,1,69.355295,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/1/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,clevr,2,65.839660,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/2/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,clevr,3,62.946854,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/3/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,clevr,4,69.218891,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/4/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,clevr,5,70.315275,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet/shape_size_material_color/5/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,iraven,1,71.043726,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/1/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,iraven,2,65.232467,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/2/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,iraven,3,62.365179,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/3/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,iraven,4,70.726991,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/4/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,iraven,5,73.906013,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet/size_type_color/5/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,shapes3d,1,92.054894,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,shapes3d,2,91.412044,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,shapes3d,3,90.225578,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,shapes3d,4,91.814793,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + CRM_loss,AIN,CRM_loss,shapes3d,5,91.753800,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,cars3d,1,56.072831,test_acc,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/1/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,cars3d,2,55.008331,test_acc,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/2/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,cars3d,3,57.465391,test_acc,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/3/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,cars3d,4,57.697325,test_acc,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/4/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,cars3d,5,57.355719,test_acc,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/5/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,dsprites,1,69.460209,test_acc,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,dsprites,2,61.757372,test_acc,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,dsprites,3,70.638088,test_acc,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,dsprites,4,68.481645,test_acc,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,dsprites,5,65.909964,test_acc,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,mpi3d,1,53.442489,test_acc,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,mpi3d,2,67.633705,test_acc,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,mpi3d,3,56.262048,test_acc,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,mpi3d,4,56.560227,test_acc,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,mpi3d,5,55.681395,test_acc,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,clevr,1,61.104572,test_acc,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/1/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,clevr,2,58.545308,test_acc,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/2/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,clevr,3,61.014552,test_acc,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/3/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,clevr,4,62.121081,test_acc,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/4/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,clevr,5,59.726879,test_acc,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/5/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,iraven,1,79.317930,test_acc,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/1/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,iraven,2,86.536177,test_acc,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/2/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,iraven,3,79.408698,test_acc,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/3/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,iraven,4,75.905481,test_acc,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/4/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,iraven,5,61.265879,test_acc,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/5/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,shapes3d,1,95.427596,test_acc,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,shapes3d,2,91.372372,test_acc,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,shapes3d,3,94.437960,test_acc,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,shapes3d,4,88.831874,test_acc,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + LATTICE,AIN,LATTICE,shapes3d,5,94.393545,test_acc,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,cars3d,1,72.467689,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/1/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,cars3d,2,70.258491,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/2/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,cars3d,3,71.175233,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/3/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,cars3d,4,71.641118,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/4/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,cars3d,5,70.153291,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/5/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,dsprites,1,48.635306,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,dsprites,2,44.419714,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,dsprites,3,51.188843,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,dsprites,4,53.802334,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,dsprites,5,48.378850,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,mpi3d,1,71.857420,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,mpi3d,2,69.197548,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,mpi3d,3,66.724914,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,mpi3d,4,69.654839,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,mpi3d,5,70.630422,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,clevr,1,67.234590,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/1/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,clevr,2,66.091880,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/2/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,clevr,3,69.870030,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/3/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,clevr,4,71.357612,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/4/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,clevr,5,68.943508,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/5/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,iraven,1,56.782303,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/1/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,iraven,2,70.780336,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/2/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,iraven,3,66.651108,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/3/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,iraven,4,69.410039,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/4/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,iraven,5,80.460767,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/5/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,shapes3d,1,84.859134,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,shapes3d,2,81.044148,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,shapes3d,3,86.385904,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,shapes3d,4,79.225966,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + CRM + LATTICE,AIN,CRM + LATTICE,shapes3d,5,71.231000,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,cars3d,1,63.555756,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/1/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,cars3d,2,59.437932,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/2/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,cars3d,3,59.948903,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/3/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,cars3d,4,63.871356,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/4/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,cars3d,5,57.694620,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_l15/elevation_type_orientation/5/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,dsprites,1,59.603786,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,dsprites,2,66.669875,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,dsprites,3,70.054139,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,dsprites,4,63.584777,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,dsprites,5,56.404796,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_l15/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,mpi3d,1,60.847058,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,mpi3d,2,74.013403,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,mpi3d,3,75.534389,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,mpi3d,4,60.210790,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,mpi3d,5,72.822836,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_l15/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,clevr,1,58.484108,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/1/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,clevr,2,57.547291,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/2/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,clevr,3,62.300862,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/3/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,clevr,4,65.062411,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/4/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,clevr,5,57.724874,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_l15/shape_size_material_color/5/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,iraven,1,76.068148,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/1/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,iraven,2,78.473669,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/2/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,iraven,3,81.422642,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/3/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,iraven,4,75.806425,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/4/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,iraven,5,91.394802,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_l15/size_type_color/5/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,shapes3d,1,96.799303,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,shapes3d,2,92.371962,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,shapes3d,3,92.490561,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,shapes3d,4,91.126440,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + CRM_loss + LATTICE,AIN,CRM_loss + LATTICE,shapes3d,5,90.719334,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_l15/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED,ED,base,cars3d,1,50.378227,test_acc,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/1/checkpoints/results.json
+ED,ED,base,cars3d,2,48.483840,test_acc,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/2/checkpoints/results.json
+ED,ED,base,cars3d,3,49.511336,test_acc,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/3/checkpoints/results.json
+ED,ED,base,cars3d,4,47.836867,test_acc,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/4/checkpoints/results.json
+ED,ED,base,cars3d,5,49.914360,test_acc,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/5/checkpoints/results.json
+ED,ED,base,dsprites,1,70.327909,test_acc,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED,ED,base,dsprites,2,70.523822,test_acc,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED,ED,base,dsprites,3,66.793073,test_acc,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED,ED,base,dsprites,4,70.943463,test_acc,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED,ED,base,dsprites,5,71.376913,test_acc,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED,ED,base,mpi3d,1,75.015530,test_acc,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED,ED,base,mpi3d,2,72.684861,test_acc,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED,ED,base,mpi3d,3,56.421427,test_acc,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED,ED,base,mpi3d,4,69.223522,test_acc,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED,ED,base,mpi3d,5,71.269044,test_acc,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED,ED,base,clevr,1,49.378150,test_acc,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/1/checkpoints/results.json
+ED,ED,base,clevr,2,51.204109,test_acc,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/2/checkpoints/results.json
+ED,ED,base,clevr,3,58.505146,test_acc,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/3/checkpoints/results.json
+ED,ED,base,clevr,4,51.934182,test_acc,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/4/checkpoints/results.json
+ED,ED,base,clevr,5,40.604113,test_acc,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/5/checkpoints/results.json
+ED,ED,base,iraven,1,67.116255,test_acc,metrics/iraven/general_composition_1/split_4_lin/size_type_color/1/checkpoints/results.json
+ED,ED,base,iraven,2,74.064885,test_acc,metrics/iraven/general_composition_1/split_4_lin/size_type_color/2/checkpoints/results.json
+ED,ED,base,iraven,3,70.812284,test_acc,metrics/iraven/general_composition_1/split_4_lin/size_type_color/3/checkpoints/results.json
+ED,ED,base,iraven,4,72.777368,test_acc,metrics/iraven/general_composition_1/split_4_lin/size_type_color/4/checkpoints/results.json
+ED,ED,base,iraven,5,67.690233,test_acc,metrics/iraven/general_composition_1/split_4_lin/size_type_color/5/checkpoints/results.json
+ED,ED,base,shapes3d,1,89.202818,test_acc,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED,ED,base,shapes3d,2,89.508892,test_acc,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED,ED,base,shapes3d,3,82.052232,test_acc,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED,ED,base,shapes3d,4,96.321213,test_acc,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED,ED,base,shapes3d,5,93.788498,test_acc,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + CRM,ED,CRM,cars3d,1,61.166216,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/1/checkpoints/results.json
+ED + CRM,ED,CRM,cars3d,2,62.248272,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/2/checkpoints/results.json
+ED + CRM,ED,CRM,cars3d,3,61.541930,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/3/checkpoints/results.json
+ED + CRM,ED,CRM,cars3d,4,62.969643,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/4/checkpoints/results.json
+ED + CRM,ED,CRM,cars3d,5,60.444846,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/5/checkpoints/results.json
+ED + CRM,ED,CRM,dsprites,1,15.805863,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + CRM,ED,CRM,dsprites,2,40.274302,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + CRM,ED,CRM,dsprites,3,25.498075,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + CRM,ED,CRM,dsprites,4,26.242782,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + CRM,ED,CRM,dsprites,5,35.594121,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + CRM,ED,CRM,mpi3d,1,53.939610,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + CRM,ED,CRM,mpi3d,2,59.386226,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + CRM,ED,CRM,mpi3d,3,52.127389,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + CRM,ED,CRM,mpi3d,4,53.423860,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + CRM,ED,CRM,mpi3d,5,55.427554,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + CRM,ED,CRM,clevr,1,63.739545,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/1/checkpoints/results.json
+ED + CRM,ED,CRM,clevr,2,72.670184,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/2/checkpoints/results.json
+ED + CRM,ED,CRM,clevr,3,70.706473,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/3/checkpoints/results.json
+ED + CRM,ED,CRM,clevr,4,62.311157,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/4/checkpoints/results.json
+ED + CRM,ED,CRM,clevr,5,67.718440,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/5/checkpoints/results.json
+ED + CRM,ED,CRM,iraven,1,66.166003,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/1/checkpoints/results.json
+ED + CRM,ED,CRM,iraven,2,59.182823,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/2/checkpoints/results.json
+ED + CRM,ED,CRM,iraven,3,69.646757,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/3/checkpoints/results.json
+ED + CRM,ED,CRM,iraven,4,59.377865,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/4/checkpoints/results.json
+ED + CRM,ED,CRM,iraven,5,56.060480,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/5/checkpoints/results.json
+ED + CRM,ED,CRM,shapes3d,1,53.953916,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + CRM,ED,CRM,shapes3d,2,45.245910,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + CRM,ED,CRM,shapes3d,3,47.704521,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + CRM,ED,CRM,shapes3d,4,52.072321,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + CRM,ED,CRM,shapes3d,5,50.247362,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,cars3d,1,63.645928,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/1/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,cars3d,2,64.201984,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/2/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,cars3d,3,68.409979,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/3/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,cars3d,4,64.307184,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/4/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,cars3d,5,63.585813,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_s4/elevation_type_orientation/5/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,dsprites,1,46.232756,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,dsprites,2,73.090512,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,dsprites,3,60.547602,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,dsprites,4,58.826797,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,dsprites,5,58.747393,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_s4/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,mpi3d,1,62.412947,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,mpi3d,2,65.278484,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,mpi3d,3,78.283855,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,mpi3d,4,71.987681,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,mpi3d,5,78.748348,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_s4/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,clevr,1,70.572642,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/1/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,clevr,2,68.547163,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/2/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,clevr,3,71.064213,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/3/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,clevr,4,65.057264,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/4/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,clevr,5,71.826020,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_s4/shape_size_material_color/5/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,iraven,1,72.857452,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/1/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,iraven,2,78.968777,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/2/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,iraven,3,78.030240,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/3/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,iraven,4,70.828680,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/4/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,iraven,5,68.219781,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_s4/size_type_color/5/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,shapes3d,1,90.743054,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,shapes3d,2,90.967664,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,shapes3d,3,86.553393,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,shapes3d,4,94.295672,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + CRM_loss,ED,CRM_loss,shapes3d,5,93.276213,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_s4/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,cars3d,1,39.771609,test_acc,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/1/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,cars3d,2,38.025813,test_acc,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/2/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,cars3d,3,38.367227,test_acc,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/3/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,cars3d,4,38.670296,test_acc,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/4/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,cars3d,5,35.163814,test_acc,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/5/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,dsprites,1,63.709297,test_acc,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,dsprites,2,61.561660,test_acc,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,dsprites,3,66.488297,test_acc,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,dsprites,4,62.484191,test_acc,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,dsprites,5,68.293137,test_acc,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,mpi3d,1,71.041664,test_acc,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,mpi3d,2,68.166039,test_acc,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,mpi3d,3,70.655640,test_acc,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,mpi3d,4,54.486232,test_acc,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,mpi3d,5,56.632593,test_acc,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,clevr,1,64.563669,test_acc,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/1/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,clevr,2,61.784203,test_acc,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/2/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,clevr,3,62.097290,test_acc,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/3/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,clevr,4,44.659722,test_acc,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/4/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,clevr,5,59.511669,test_acc,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/5/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,iraven,1,74.273183,test_acc,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/1/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,iraven,2,72.084504,test_acc,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/2/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,iraven,3,78.470290,test_acc,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/3/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,iraven,4,82.101593,test_acc,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/4/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,iraven,5,78.165810,test_acc,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/5/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,shapes3d,1,91.132826,test_acc,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,shapes3d,2,94.199038,test_acc,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,shapes3d,3,89.921802,test_acc,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,shapes3d,4,88.592688,test_acc,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + LATTICE,ED,LATTICE,shapes3d,5,85.657968,test_acc,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,cars3d,1,69.401864,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/1/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,cars3d,2,73.790202,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/2/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,cars3d,3,71.565976,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/3/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,cars3d,4,72.858431,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/4/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,cars3d,5,71.791404,final_test_crm_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/5/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,dsprites,1,57.863731,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,dsprites,2,61.432267,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,dsprites,3,55.155799,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,dsprites,4,61.889838,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,dsprites,5,57.793551,final_test_crm_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,mpi3d,1,71.346118,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,mpi3d,2,75.442888,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,mpi3d,3,70.233920,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,mpi3d,4,71.881778,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,mpi3d,5,72.583283,final_test_crm_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,clevr,1,83.718955,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/1/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,clevr,2,61.088663,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/2/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,clevr,3,66.287479,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/3/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,clevr,4,62.967443,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/4/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,clevr,5,63.448720,final_test_crm_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/5/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,iraven,1,70.191875,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/1/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,iraven,2,76.333206,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/2/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,iraven,3,66.501075,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/3/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,iraven,4,67.672996,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/4/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,iraven,5,72.719089,final_test_crm_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/5/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,shapes3d,1,88.272824,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,shapes3d,2,75.561526,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,shapes3d,3,83.640236,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,shapes3d,4,85.526672,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + CRM + LATTICE,ED,CRM + LATTICE,shapes3d,5,84.437022,final_test_crm_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,cars3d,1,59.588218,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/1/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,cars3d,2,62.128043,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/2/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,cars3d,3,63.901413,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/3/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,cars3d,4,62.293358,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/4/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,cars3d,5,61.061016,final_test_baseline_acc,crm/cars3d/general_composition_1/crm_split_resnet_mixer_s4_l15/elevation_type_orientation/5/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,dsprites,1,63.021134,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,dsprites,2,62.066089,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,dsprites,3,61.261830,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,dsprites,4,65.206128,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,dsprites,5,64.631457,final_test_baseline_acc,crm/dsprites/general_composition_1/crm_split_resnet_mixer_s4_l15/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,mpi3d,1,79.323827,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,mpi3d,2,78.577420,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,mpi3d,3,76.795911,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,mpi3d,4,80.339442,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,mpi3d,5,77.892012,final_test_baseline_acc,crm/mpi3d/general_composition_1/crm_split_resnet_mixer_s4_l15/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,clevr,1,71.159439,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/1/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,clevr,2,51.831167,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/2/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,clevr,3,53.179771,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/3/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,clevr,4,55.416291,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/4/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,clevr,5,63.896538,final_test_baseline_acc,crm/clevr/general_composition_1/crm_split_resnet_mixer_s4_l15/shape_size_material_color/5/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,iraven,1,82.279494,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/1/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,iraven,2,81.711037,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/2/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,iraven,3,80.510777,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/3/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,iraven,4,69.998500,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/4/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,iraven,5,79.337190,final_test_baseline_acc,crm/iraven/general_composition_1/crm_split_resnet_mixer_s4_l15/size_type_color/5/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,shapes3d,1,92.025850,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,shapes3d,2,86.695711,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,shapes3d,3,91.779940,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,shapes3d,4,92.759222,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + CRM_loss + LATTICE,ED,CRM_loss + LATTICE,shapes3d,5,92.807629,final_test_baseline_acc,crm/shapes3d/general_composition_1/crm_split_resnet_mixer_s4_l15/wall_floor_object_scale_shape/5/checkpoints/results.json

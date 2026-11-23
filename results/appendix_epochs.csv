@@ -1,0 +1,37 @@
+model,dataset,n_epochs,lambda,source_file
+ResNet-18,cars3d,500,,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/1/cfg.yml
+ResNet-18,dsprites,50,,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/1/cfg.yml
+ResNet-18,mpi3d,50,,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/cfg.yml
+ResNet-18,clevr,250,,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/1/cfg.yml
+ResNet-18,iraven,50,,metrics/iraven/general_composition_1/resnet18/size_type_color/1/cfg.yml
+ResNet-18,shapes3d,50,,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/1/cfg.yml
+AIN,cars3d,500,,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/1/cfg.yml
+AIN,dsprites,50,,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/1/cfg.yml
+AIN,mpi3d,50,,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/1/cfg.yml
+AIN,clevr,250,,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/1/cfg.yml
+AIN,iraven,50,,metrics/iraven/general_composition_1/split_lin/size_type_color/1/cfg.yml
+AIN,shapes3d,50,,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/1/cfg.yml
+ED,cars3d,500,,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/1/cfg.yml
+ED,dsprites,50,,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/1/cfg.yml
+ED,mpi3d,50,,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/1/cfg.yml
+ED,clevr,250,,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/1/cfg.yml
+ED,iraven,50,,metrics/iraven/general_composition_1/split_4_lin/size_type_color/1/cfg.yml
+ED,shapes3d,50,,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/1/cfg.yml
+AIN + LATTICE,cars3d,500,1.5,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/1/cfg.yml
+AIN + LATTICE,dsprites,50,1.5,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/1/cfg.yml
+AIN + LATTICE,mpi3d,50,1.5,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/cfg.yml
+AIN + LATTICE,clevr,250,1.5,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/1/cfg.yml
+AIN + LATTICE,iraven,50,1.5,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/1/cfg.yml
+AIN + LATTICE,shapes3d,50,1.5,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/1/cfg.yml
+ResNet-18 + LATTICE,cars3d,500,1.5,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/1/cfg.yml
+ResNet-18 + LATTICE,dsprites,50,1.5,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/1/cfg.yml
+ResNet-18 + LATTICE,mpi3d,50,1.5,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/cfg.yml
+ResNet-18 + LATTICE,clevr,250,1.5,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/1/cfg.yml
+ResNet-18 + LATTICE,iraven,50,1.5,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/1/cfg.yml
+ResNet-18 + LATTICE,shapes3d,50,1.5,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/1/cfg.yml
+ED + LATTICE,cars3d,500,1.5,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/1/cfg.yml
+ED + LATTICE,dsprites,50,1.5,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/1/cfg.yml
+ED + LATTICE,mpi3d,50,1.5,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/1/cfg.yml
+ED + LATTICE,clevr,250,1.5,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/1/cfg.yml
+ED + LATTICE,iraven,50,1.5,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/1/cfg.yml
+ED + LATTICE,shapes3d,50,1.5,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/1/cfg.yml

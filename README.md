@@ -1,7 +1,8 @@
 # Compositional generalization: LATTICE and CRM — code
 
-Anonymous code release accompanying the submission. This package contains **code
-only**: no datasets, no checkpoints, no logs and no result files.
+Code and per-run results for *LATTICE: Latent Imagination for Compositional
+Embeddings*. The repository contains no datasets and no checkpoints; `results/`
+holds the per-run numbers behind every table of the paper.
 
 ## Layout
 
@@ -19,6 +20,7 @@ only**: no datasets, no checkpoints, no logs and no result files.
 | `RUNS.md` | the exact command for each of the twelve rows of the paper |
 | `pending_runner.sh`, `crm_runner.sh` | the two launchers that cover every reported run, with `run_pending.sh` / `run_crm.sh` as their SLURM wrappers |
 | `tests/`, `notebooks/` | unit tests and exploratory notebooks (outputs stripped) |
+| `results/` | per-run results behind every table of the paper, and `verify_tables.py`, which recomputes the published values from them |
 
 ## Running
 
@@ -34,7 +36,18 @@ LATTICE on one benchmark, all five seeds:
 ./pending_runner.sh mpi3d metrics lattice_ain_alg_l_1.5 1,2,3,4,5 non_iid 0
 ```
 
-The SLURM headers are anonymized: partition, node and account names are
+## Results
+
+`results/README.md` describes the CSV files, one per table of the paper. To
+check the published numbers against the per-run data:
+
+```bash
+cd results && python verify_tables.py
+```
+
+## Cluster scripts
+
+The SLURM headers are generic: partition, node and account names are
 placeholders (`gpu-partition`, `cluster-a`, `ACCOUNT`) and have to be replaced
 with the ones of your own cluster. Paths use `$HOME` and `/scratch/USER`.
 

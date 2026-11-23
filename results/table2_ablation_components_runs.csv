@@ -1,0 +1,121 @@
+table_row,dataset,seed,test_accuracy_pct,provenance,source_file
+AIN + LATTICE,cars3d,1,56.072831,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/1/checkpoints/results.json
+AIN + LATTICE,cars3d,2,55.008331,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/2/checkpoints/results.json
+AIN + LATTICE,cars3d,3,57.465391,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/3/checkpoints/results.json
+AIN + LATTICE,cars3d,4,57.697325,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/4/checkpoints/results.json
+AIN + LATTICE,cars3d,5,57.355719,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/5/checkpoints/results.json
+AIN + LATTICE,dsprites,1,69.460209,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + LATTICE,dsprites,2,61.757372,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + LATTICE,dsprites,3,70.638088,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + LATTICE,dsprites,4,68.481645,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + LATTICE,dsprites,5,65.909964,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + LATTICE,mpi3d,1,53.442489,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + LATTICE,mpi3d,2,67.633705,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + LATTICE,mpi3d,3,56.262048,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + LATTICE,mpi3d,4,56.560227,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + LATTICE,mpi3d,5,55.681395,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + LATTICE,clevr,1,61.104572,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/1/checkpoints/results.json
+AIN + LATTICE,clevr,2,58.545308,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/2/checkpoints/results.json
+AIN + LATTICE,clevr,3,61.014552,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/3/checkpoints/results.json
+AIN + LATTICE,clevr,4,62.121081,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/4/checkpoints/results.json
+AIN + LATTICE,clevr,5,59.726879,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/5/checkpoints/results.json
+AIN + LATTICE,iraven,1,79.317930,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/1/checkpoints/results.json
+AIN + LATTICE,iraven,2,86.536177,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/2/checkpoints/results.json
+AIN + LATTICE,iraven,3,79.408698,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/3/checkpoints/results.json
+AIN + LATTICE,iraven,4,75.905481,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/4/checkpoints/results.json
+AIN + LATTICE,iraven,5,61.265879,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/5/checkpoints/results.json
+AIN + LATTICE,shapes3d,1,95.427596,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + LATTICE,shapes3d,2,91.372372,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + LATTICE,shapes3d,3,94.437960,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + LATTICE,shapes3d,4,88.831874,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + LATTICE,shapes3d,5,94.393545,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/5/checkpoints/results.json
+- sampling,cars3d,1,49.217028,results.json,comp_ablation_iid/cars3d/general_composition_1/split_resnet_algebraic_non_iid/elevation_type_orientation/1/checkpoints/results.json
+- sampling,cars3d,2,46.858582,results.json,comp_ablation_iid/cars3d/general_composition_1/split_resnet_algebraic_non_iid/elevation_type_orientation/2/checkpoints/results.json
+- sampling,cars3d,3,47.702781,results.json,comp_ablation_iid/cars3d/general_composition_1/split_resnet_algebraic_non_iid/elevation_type_orientation/3/checkpoints/results.json
+- sampling,cars3d,4,48.275937,results.json,comp_ablation_iid/cars3d/general_composition_1/split_resnet_algebraic_non_iid/elevation_type_orientation/4/checkpoints/results.json
+- sampling,cars3d,5,47.568695,results.json,comp_ablation_iid/cars3d/general_composition_1/split_resnet_algebraic_non_iid/elevation_type_orientation/5/checkpoints/results.json
+- sampling,dsprites,1,61.387559,results.json,comp_ablation_iid/dsprites/general_composition_1/split_resnet_algebraic_non_iid/scale_shape_x-position_y-position/1/checkpoints/results.json
+- sampling,dsprites,2,61.662918,results.json,comp_ablation_iid/dsprites/general_composition_1/split_resnet_algebraic_non_iid/scale_shape_x-position_y-position/2/checkpoints/results.json
+- sampling,dsprites,3,66.147901,results.json,comp_ablation_iid/dsprites/general_composition_1/split_resnet_algebraic_non_iid/scale_shape_x-position_y-position/3/checkpoints/results.json
+- sampling,dsprites,4,58.435659,results.json,comp_ablation_iid/dsprites/general_composition_1/split_resnet_algebraic_non_iid/scale_shape_x-position_y-position/4/checkpoints/results.json
+- sampling,dsprites,5,60.367572,results.json,comp_ablation_iid/dsprites/general_composition_1/split_resnet_algebraic_non_iid/scale_shape_x-position_y-position/5/checkpoints/results.json
+- sampling,mpi3d,1,55.644380,results.json,comp_ablation_iid/mpi3d/general_composition_1/split_resnet_algebraic_non_iid/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+- sampling,mpi3d,2,56.759842,results.json,comp_ablation_iid/mpi3d/general_composition_1/split_resnet_algebraic_non_iid/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+- sampling,mpi3d,3,52.963931,results.json,comp_ablation_iid/mpi3d/general_composition_1/split_resnet_algebraic_non_iid/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+- sampling,mpi3d,4,54.174624,results.json,comp_ablation_iid/mpi3d/general_composition_1/split_resnet_algebraic_non_iid/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+- sampling,mpi3d,5,53.693605,results.json,comp_ablation_iid/mpi3d/general_composition_1/split_resnet_algebraic_non_iid/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+- sampling,clevr,1,47.942458,results.json,comp_ablation_iid/clevr/general_composition_1/split_resnet_algebraic_non_iid/shape_size_material_color/1/checkpoints/results.json
+- sampling,clevr,2,52.841509,results.json,comp_ablation_iid/clevr/general_composition_1/split_resnet_algebraic_non_iid/shape_size_material_color/2/checkpoints/results.json
+- sampling,clevr,3,46.729606,results.json,comp_ablation_iid/clevr/general_composition_1/split_resnet_algebraic_non_iid/shape_size_material_color/3/checkpoints/results.json
+- sampling,clevr,4,56.833239,results.json,comp_ablation_iid/clevr/general_composition_1/split_resnet_algebraic_non_iid/shape_size_material_color/4/checkpoints/results.json
+- sampling,clevr,5,49.561348,results.json,comp_ablation_iid/clevr/general_composition_1/split_resnet_algebraic_non_iid/shape_size_material_color/5/checkpoints/results.json
+- sampling,iraven,1,78.304346,results.json,comp_ablation_iid/iraven/general_composition_1/split_resnet_algebraic_non_iid/size_type_color/1/checkpoints/results.json
+- sampling,iraven,2,69.710738,results.json,comp_ablation_iid/iraven/general_composition_1/split_resnet_algebraic_non_iid/size_type_color/2/checkpoints/results.json
+- sampling,iraven,3,65.159379,results.json,comp_ablation_iid/iraven/general_composition_1/split_resnet_algebraic_non_iid/size_type_color/3/checkpoints/results.json
+- sampling,iraven,4,59.330469,results.json,comp_ablation_iid/iraven/general_composition_1/split_resnet_algebraic_non_iid/size_type_color/4/checkpoints/results.json
+- sampling,iraven,5,66.243022,results.json,comp_ablation_iid/iraven/general_composition_1/split_resnet_algebraic_non_iid/size_type_color/5/checkpoints/results.json
+- sampling,shapes3d,1,90.281367,results.json,comp_ablation_iid/shapes3d/general_composition_1/split_resnet_algebraic_non_iid/wall_floor_object_scale_shape/1/checkpoints/results.json
+- sampling,shapes3d,2,97.407171,results.json,comp_ablation_iid/shapes3d/general_composition_1/split_resnet_algebraic_non_iid/wall_floor_object_scale_shape/2/checkpoints/results.json
+- sampling,shapes3d,3,97.672100,results.json,comp_ablation_iid/shapes3d/general_composition_1/split_resnet_algebraic_non_iid/wall_floor_object_scale_shape/3/checkpoints/results.json
+- sampling,shapes3d,4,95.227621,results.json,comp_ablation_iid/shapes3d/general_composition_1/split_resnet_algebraic_non_iid/wall_floor_object_scale_shape/4/checkpoints/results.json
+- sampling,shapes3d,5,89.971717,results.json,comp_ablation_iid/shapes3d/general_composition_1/split_resnet_algebraic_non_iid/wall_floor_object_scale_shape/5/checkpoints/results.json
+- imagination,cars3d,1,48.337356,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_0/elevation_type_orientation/1/checkpoints/results.json
+- imagination,cars3d,2,45.185069,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_0/elevation_type_orientation/2/checkpoints/results.json
+- imagination,cars3d,3,46.822726,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_0/elevation_type_orientation/3/checkpoints/results.json
+- imagination,cars3d,4,52.832606,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_0/elevation_type_orientation/4/checkpoints/results.json
+- imagination,cars3d,5,51.931393,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_0/elevation_type_orientation/5/checkpoints/results.json
+- imagination,dsprites,1,48.745077,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_0/scale_shape_x-position_y-position/1/checkpoints/results.json
+- imagination,dsprites,2,64.349665,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_0/scale_shape_x-position_y-position/2/checkpoints/results.json
+- imagination,dsprites,3,65.514136,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_0/scale_shape_x-position_y-position/3/checkpoints/results.json
+- imagination,dsprites,4,64.489946,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_0/scale_shape_x-position_y-position/4/checkpoints/results.json
+- imagination,dsprites,5,66.409052,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_0/scale_shape_x-position_y-position/5/checkpoints/results.json
+- imagination,mpi3d,1,54.351410,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_0/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+- imagination,mpi3d,2,52.538428,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_0/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+- imagination,mpi3d,3,58.990667,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_0/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+- imagination,mpi3d,4,53.810285,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_0/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+- imagination,mpi3d,5,56.273687,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_0/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+- imagination,clevr,1,53.244175,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_0/shape_size_material_color/1/checkpoints/results.json
+- imagination,clevr,2,51.003657,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_0/shape_size_material_color/2/checkpoints/results.json
+- imagination,clevr,3,51.937929,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_0/shape_size_material_color/3/checkpoints/results.json
+- imagination,clevr,4,58.233835,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_0/shape_size_material_color/4/checkpoints/results.json
+- imagination,clevr,5,64.364683,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_0/shape_size_material_color/5/checkpoints/results.json
+- imagination,iraven,1,63.719505,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_0/size_type_color/1/checkpoints/results.json
+- imagination,iraven,2,58.686045,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_0/size_type_color/2/checkpoints/results.json
+- imagination,iraven,3,54.827291,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_0/size_type_color/3/checkpoints/results.json
+- imagination,iraven,4,52.651526,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_0/size_type_color/4/checkpoints/results.json
+- imagination,iraven,5,57.151816,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_0/size_type_color/5/checkpoints/results.json
+- imagination,shapes3d,1,91.330399,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_0/wall_floor_object_scale_shape/1/checkpoints/results.json
+- imagination,shapes3d,2,85.108244,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_0/wall_floor_object_scale_shape/2/checkpoints/results.json
+- imagination,shapes3d,3,87.646286,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_0/wall_floor_object_scale_shape/3/checkpoints/results.json
+- imagination,shapes3d,4,91.873290,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_0/wall_floor_object_scale_shape/4/checkpoints/results.json
+- imagination,shapes3d,5,90.433310,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_0/wall_floor_object_scale_shape/5/checkpoints/results.json
+- both (AIN),cars3d,1,49.288929,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/1/checkpoints/results.json
+- both (AIN),cars3d,2,43.950244,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/2/checkpoints/results.json
+- both (AIN),cars3d,3,46.797163,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/3/checkpoints/results.json
+- both (AIN),cars3d,4,47.897137,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/4/checkpoints/results.json
+- both (AIN),cars3d,5,46.187577,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/5/checkpoints/results.json
+- both (AIN),dsprites,1,58.834889,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/1/checkpoints/results.json
+- both (AIN),dsprites,2,58.404441,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/2/checkpoints/results.json
+- both (AIN),dsprites,3,54.570833,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/3/checkpoints/results.json
+- both (AIN),dsprites,4,53.745958,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/4/checkpoints/results.json
+- both (AIN),dsprites,5,53.256676,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/5/checkpoints/results.json
+- both (AIN),mpi3d,1,54.513847,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+- both (AIN),mpi3d,2,54.348700,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+- both (AIN),mpi3d,3,56.153587,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+- both (AIN),mpi3d,4,63.945559,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+- both (AIN),mpi3d,5,68.794899,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+- both (AIN),clevr,1,49.599608,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/1/checkpoints/results.json
+- both (AIN),clevr,2,41.019339,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/2/checkpoints/results.json
+- both (AIN),clevr,3,45.421301,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/3/checkpoints/results.json
+- both (AIN),clevr,4,44.955560,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/4/checkpoints/results.json
+- both (AIN),clevr,5,55.200610,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/5/checkpoints/results.json
+- both (AIN),iraven,1,56.591696,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/1/checkpoints/results.json
+- both (AIN),iraven,2,58.137542,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/2/checkpoints/results.json
+- both (AIN),iraven,3,57.436422,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/3/checkpoints/results.json
+- both (AIN),iraven,4,57.033909,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/4/checkpoints/results.json
+- both (AIN),iraven,5,66.811433,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/5/checkpoints/results.json
+- both (AIN),shapes3d,1,83.500432,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/1/checkpoints/results.json
+- both (AIN),shapes3d,2,92.191662,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/2/checkpoints/results.json
+- both (AIN),shapes3d,3,76.788869,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/3/checkpoints/results.json
+- both (AIN),shapes3d,4,83.036094,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/4/checkpoints/results.json
+- both (AIN),shapes3d,5,84.822789,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/5/checkpoints/results.json

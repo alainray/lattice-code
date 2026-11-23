@@ -1,0 +1,451 @@
+table_row,dataset,seed,test_accuracy_pct,provenance,source_file
+ResNet-18,cars3d,1,33.660817,results.json,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18,cars3d,2,32.660415,results.json,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18,cars3d,3,33.967525,results.json,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18,cars3d,4,32.745481,results.json,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18,cars3d,5,32.574200,results.json,metrics/cars3d/general_composition_1/resnet18/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18,dsprites,1,20.906642,results.json,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18,dsprites,2,22.009077,results.json,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18,dsprites,3,20.118188,results.json,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18,dsprites,4,21.177999,results.json,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18,dsprites,5,22.295242,results.json,metrics/dsprites/general_composition_1/resnet18/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18,mpi3d,1,41.950123,results.json,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18,mpi3d,2,45.224990,results.json,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18,mpi3d,3,42.715943,results.json,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18,mpi3d,4,44.832462,results.json,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18,mpi3d,5,43.543062,results.json,metrics/mpi3d/general_composition_1/resnet18/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18,clevr,1,16.004583,results.json,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/1/checkpoints/results.json
+ResNet-18,clevr,2,23.748525,results.json,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/2/checkpoints/results.json
+ResNet-18,clevr,3,26.301620,results.json,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/3/checkpoints/results.json
+ResNet-18,clevr,4,13.814948,results.json,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/4/checkpoints/results.json
+ResNet-18,clevr,5,22.150483,results.json,metrics/clevr/general_composition_1/resnet18/shape_size_material_color/5/checkpoints/results.json
+ResNet-18,iraven,1,11.208377,results.json,metrics/iraven/general_composition_1/resnet18/size_type_color/1/checkpoints/results.json
+ResNet-18,iraven,2,15.610103,results.json,metrics/iraven/general_composition_1/resnet18/size_type_color/2/checkpoints/results.json
+ResNet-18,iraven,3,9.200480,results.json,metrics/iraven/general_composition_1/resnet18/size_type_color/3/checkpoints/results.json
+ResNet-18,iraven,4,14.575253,results.json,metrics/iraven/general_composition_1/resnet18/size_type_color/4/checkpoints/results.json
+ResNet-18,iraven,5,6.861117,results.json,metrics/iraven/general_composition_1/resnet18/size_type_color/5/checkpoints/results.json
+ResNet-18,shapes3d,1,84.402791,results.json,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18,shapes3d,2,83.922400,results.json,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18,shapes3d,3,84.661685,results.json,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18,shapes3d,4,87.231509,results.json,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18,shapes3d,5,83.703842,results.json,metrics/shapes3d/general_composition_1/resnet18/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + LATTICE,cars3d,1,53.042616,results.json,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + LATTICE,cars3d,2,53.055589,results.json,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + LATTICE,cars3d,3,53.507632,results.json,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + LATTICE,cars3d,4,53.837605,results.json,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + LATTICE,cars3d,5,56.513050,results.json,metrics/cars3d/general_composition_1/lattice_resnet18_alg_l_1.5/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + LATTICE,dsprites,1,22.180776,results.json,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + LATTICE,dsprites,2,18.347568,results.json,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + LATTICE,dsprites,3,25.192111,results.json,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + LATTICE,dsprites,4,22.950419,results.json,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + LATTICE,dsprites,5,25.226931,results.json,metrics/dsprites/general_composition_1/lattice_resnet18_alg_l_1.5/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + LATTICE,mpi3d,1,44.904753,results.json,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + LATTICE,mpi3d,2,43.205281,results.json,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + LATTICE,mpi3d,3,43.495079,results.json,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + LATTICE,mpi3d,4,43.754862,results.json,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + LATTICE,mpi3d,5,42.469054,results.json,metrics/mpi3d/general_composition_1/lattice_resnet18_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + LATTICE,clevr,1,33.667571,results.json,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + LATTICE,clevr,2,37.766863,results.json,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + LATTICE,clevr,3,45.543778,results.json,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + LATTICE,clevr,4,26.378569,results.json,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + LATTICE,clevr,5,46.082501,results.json,metrics/clevr/general_composition_1/lattice_resnet18_alg_l_1.5/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + LATTICE,iraven,1,16.288483,results.json,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/1/checkpoints/results.json
+ResNet-18 + LATTICE,iraven,2,30.978305,results.json,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/2/checkpoints/results.json
+ResNet-18 + LATTICE,iraven,3,28.591742,results.json,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/3/checkpoints/results.json
+ResNet-18 + LATTICE,iraven,4,29.939776,results.json,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/4/checkpoints/results.json
+ResNet-18 + LATTICE,iraven,5,11.419399,results.json,metrics/iraven/general_composition_1/lattice_resnet18_alg_l_1.5/size_type_color/5/checkpoints/results.json
+ResNet-18 + LATTICE,shapes3d,1,84.071047,results.json,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + LATTICE,shapes3d,2,87.218367,results.json,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + LATTICE,shapes3d,3,91.760172,results.json,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + LATTICE,shapes3d,4,85.447802,results.json,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + LATTICE,shapes3d,5,90.583879,results.json,metrics/shapes3d/general_composition_1/lattice_resnet18_alg_l_1.5/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + learned d=64,cars3d,1,36.875287,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp64_all_cases/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + learned d=64,cars3d,2,36.167089,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp64_all_cases/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + learned d=64,cars3d,3,38.317823,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp64_all_cases/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + learned d=64,cars3d,4,39.503438,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp64_all_cases/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + learned d=64,cars3d,5,40.761720,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp64_all_cases/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + learned d=64,dsprites,1,19.920874,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp64_all_cases/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + learned d=64,dsprites,2,16.154705,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp64_all_cases/scale_shape_x-position_y-position/2/checkpoints/results.json
+ResNet-18 + learned d=64,dsprites,3,15.444696,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp64_all_cases/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + learned d=64,dsprites,4,18.153056,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp64_all_cases/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + learned d=64,dsprites,5,17.802854,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp64_all_cases/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + learned d=64,mpi3d,1,45.670150,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp64_all_cases/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + learned d=64,mpi3d,2,44.176348,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp64_all_cases/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + learned d=64,mpi3d,3,41.456135,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp64_all_cases/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + learned d=64,mpi3d,4,45.343784,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp64_all_cases/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + learned d=64,mpi3d,5,45.243380,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp64_all_cases/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + learned d=64,clevr,1,36.922538,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp64_all_cases/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + learned d=64,clevr,2,28.582005,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp64_all_cases/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + learned d=64,clevr,3,39.892471,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp64_all_cases/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + learned d=64,clevr,4,36.243054,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp64_all_cases/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + learned d=64,clevr,5,39.079058,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp64_all_cases/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + learned d=64,iraven,1,18.042096,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp64_all_cases/size_type_color/1/checkpoints/results.json
+ResNet-18 + learned d=64,iraven,2,9.473504,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp64_all_cases/size_type_color/2/checkpoints/results.json
+ResNet-18 + learned d=64,iraven,3,8.439858,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp64_all_cases/size_type_color/3/checkpoints/results.json
+ResNet-18 + learned d=64,iraven,4,12.464628,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp64_all_cases/size_type_color/4/checkpoints/results.json
+ResNet-18 + learned d=64,iraven,5,14.716253,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp64_all_cases/size_type_color/5/checkpoints/results.json
+ResNet-18 + learned d=64,shapes3d,1,78.965895,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp64_all_cases/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + learned d=64,shapes3d,2,83.525860,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp64_all_cases/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + learned d=64,shapes3d,3,85.786088,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp64_all_cases/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + learned d=64,shapes3d,4,84.578277,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp64_all_cases/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + learned d=64,shapes3d,5,84.627383,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp64_all_cases/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + learned d=128,cars3d,1,38.352721,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp128_all_cases/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + learned d=128,cars3d,2,40.919645,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp128_all_cases/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + learned d=128,cars3d,3,40.149645,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp128_all_cases/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + learned d=128,cars3d,4,42.070169,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp128_all_cases/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + learned d=128,cars3d,5,41.824689,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp128_all_cases/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + learned d=128,dsprites,1,21.250640,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp128_all_cases/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + learned d=128,dsprites,2,22.649046,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/resnet18_mixer_rp128_all_cases/scale_shape_x-position_y-position/2/wandb/run-20260327_210856-lp5cpcrs/run-lp5cpcrs.wandb
+ResNet-18 + learned d=128,dsprites,3,20.506412,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp128_all_cases/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + learned d=128,dsprites,4,21.366107,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp128_all_cases/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + learned d=128,dsprites,5,24.893939,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp128_all_cases/scale_shape_x-position_y-position/5/checkpoints/results.json
+ResNet-18 + learned d=128,mpi3d,1,43.381358,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp128_all_cases/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + learned d=128,mpi3d,2,48.112613,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp128_all_cases/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + learned d=128,mpi3d,3,43.384318,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp128_all_cases/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + learned d=128,mpi3d,4,46.359451,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp128_all_cases/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + learned d=128,mpi3d,5,43.603938,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp128_all_cases/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + learned d=128,clevr,1,37.130847,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp128_all_cases/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + learned d=128,clevr,2,29.123450,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp128_all_cases/shape_size_material_color/2/checkpoints/results.json
+ResNet-18 + learned d=128,clevr,3,37.096629,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp128_all_cases/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + learned d=128,clevr,4,34.602716,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp128_all_cases/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + learned d=128,clevr,5,45.537829,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp128_all_cases/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + learned d=128,iraven,1,16.501699,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp128_all_cases/size_type_color/1/checkpoints/results.json
+ResNet-18 + learned d=128,iraven,2,15.517906,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp128_all_cases/size_type_color/2/checkpoints/results.json
+ResNet-18 + learned d=128,iraven,3,18.223893,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp128_all_cases/size_type_color/3/checkpoints/results.json
+ResNet-18 + learned d=128,iraven,4,11.705516,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp128_all_cases/size_type_color/4/checkpoints/results.json
+ResNet-18 + learned d=128,iraven,5,13.384719,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp128_all_cases/size_type_color/5/checkpoints/results.json
+ResNet-18 + learned d=128,shapes3d,1,82.708094,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp128_all_cases/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + learned d=128,shapes3d,2,87.926942,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp128_all_cases/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + learned d=128,shapes3d,3,81.113891,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp128_all_cases/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + learned d=128,shapes3d,4,84.950618,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp128_all_cases/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + learned d=128,shapes3d,5,86.578513,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp128_all_cases/wall_floor_object_scale_shape/5/checkpoints/results.json
+ResNet-18 + learned d=256,cars3d,1,41.371305,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp256_all_cases/elevation_type_orientation/1/checkpoints/results.json
+ResNet-18 + learned d=256,cars3d,2,40.737688,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp256_all_cases/elevation_type_orientation/2/checkpoints/results.json
+ResNet-18 + learned d=256,cars3d,3,39.281987,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp256_all_cases/elevation_type_orientation/3/checkpoints/results.json
+ResNet-18 + learned d=256,cars3d,4,42.705127,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp256_all_cases/elevation_type_orientation/4/checkpoints/results.json
+ResNet-18 + learned d=256,cars3d,5,42.851611,results.json,metrics/cars3d/general_composition_1/resnet18_mixer_rp256_all_cases/elevation_type_orientation/5/checkpoints/results.json
+ResNet-18 + learned d=256,dsprites,1,25.327989,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp256_all_cases/scale_shape_x-position_y-position/1/checkpoints/results.json
+ResNet-18 + learned d=256,dsprites,2,19.355749,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/resnet18_mixer_rp256_all_cases/scale_shape_x-position_y-position/2/wandb/run-20260327_211637-2l1mqaz8/run-2l1mqaz8.wandb
+ResNet-18 + learned d=256,dsprites,3,22.804135,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp256_all_cases/scale_shape_x-position_y-position/3/checkpoints/results.json
+ResNet-18 + learned d=256,dsprites,4,24.005627,results.json,metrics/dsprites/general_composition_1/resnet18_mixer_rp256_all_cases/scale_shape_x-position_y-position/4/checkpoints/results.json
+ResNet-18 + learned d=256,dsprites,5,17.223921,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/resnet18_mixer_rp256_all_cases/scale_shape_x-position_y-position/5/wandb/run-20260328_175911-6vflpxct/run-6vflpxct.wandb
+ResNet-18 + learned d=256,mpi3d,1,46.532146,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp256_all_cases/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ResNet-18 + learned d=256,mpi3d,2,46.301322,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp256_all_cases/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ResNet-18 + learned d=256,mpi3d,3,44.436553,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp256_all_cases/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ResNet-18 + learned d=256,mpi3d,4,45.321589,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp256_all_cases/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ResNet-18 + learned d=256,mpi3d,5,43.112064,results.json,metrics/mpi3d/general_composition_1/resnet18_mixer_rp256_all_cases/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ResNet-18 + learned d=256,clevr,1,44.587108,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp256_all_cases/shape_size_material_color/1/checkpoints/results.json
+ResNet-18 + learned d=256,clevr,2,40.105773,"wandb history (val_acc, >=)",metrics/clevr/general_composition_1/resnet18_mixer_rp256_all_cases/shape_size_material_color/2/wandb/run-20260329_223045-l2axyg1t/run-l2axyg1t.wandb
+ResNet-18 + learned d=256,clevr,3,41.217736,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp256_all_cases/shape_size_material_color/3/checkpoints/results.json
+ResNet-18 + learned d=256,clevr,4,41.290355,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp256_all_cases/shape_size_material_color/4/checkpoints/results.json
+ResNet-18 + learned d=256,clevr,5,37.964451,results.json,metrics/clevr/general_composition_1/resnet18_mixer_rp256_all_cases/shape_size_material_color/5/checkpoints/results.json
+ResNet-18 + learned d=256,iraven,1,21.409538,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp256_all_cases/size_type_color/1/checkpoints/results.json
+ResNet-18 + learned d=256,iraven,2,19.252279,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp256_all_cases/size_type_color/2/checkpoints/results.json
+ResNet-18 + learned d=256,iraven,3,12.732085,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp256_all_cases/size_type_color/3/checkpoints/results.json
+ResNet-18 + learned d=256,iraven,4,16.323382,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp256_all_cases/size_type_color/4/checkpoints/results.json
+ResNet-18 + learned d=256,iraven,5,16.798795,results.json,metrics/iraven/general_composition_1/resnet18_mixer_rp256_all_cases/size_type_color/5/checkpoints/results.json
+ResNet-18 + learned d=256,shapes3d,1,88.288284,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp256_all_cases/wall_floor_object_scale_shape/1/checkpoints/results.json
+ResNet-18 + learned d=256,shapes3d,2,83.366797,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp256_all_cases/wall_floor_object_scale_shape/2/checkpoints/results.json
+ResNet-18 + learned d=256,shapes3d,3,84.890625,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp256_all_cases/wall_floor_object_scale_shape/3/checkpoints/results.json
+ResNet-18 + learned d=256,shapes3d,4,86.414189,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp256_all_cases/wall_floor_object_scale_shape/4/checkpoints/results.json
+ResNet-18 + learned d=256,shapes3d,5,85.937360,results.json,metrics/shapes3d/general_composition_1/resnet18_mixer_rp256_all_cases/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN,cars3d,1,49.288929,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/1/checkpoints/results.json
+AIN,cars3d,2,43.950244,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/2/checkpoints/results.json
+AIN,cars3d,3,46.797163,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/3/checkpoints/results.json
+AIN,cars3d,4,47.897137,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/4/checkpoints/results.json
+AIN,cars3d,5,46.187577,results.json,metrics/cars3d/general_composition_1/split_lin/elevation_type_orientation/5/checkpoints/results.json
+AIN,dsprites,1,58.834889,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN,dsprites,2,58.404441,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN,dsprites,3,54.570833,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN,dsprites,4,53.745958,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN,dsprites,5,53.256676,results.json,metrics/dsprites/general_composition_1/split_lin/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN,mpi3d,1,54.513847,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN,mpi3d,2,54.348700,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN,mpi3d,3,56.153587,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN,mpi3d,4,63.945559,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN,mpi3d,5,68.794899,results.json,metrics/mpi3d/general_composition_1/split_lin/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN,clevr,1,49.599608,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/1/checkpoints/results.json
+AIN,clevr,2,41.019339,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/2/checkpoints/results.json
+AIN,clevr,3,45.421301,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/3/checkpoints/results.json
+AIN,clevr,4,44.955560,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/4/checkpoints/results.json
+AIN,clevr,5,55.200610,results.json,metrics/clevr/general_composition_1/split_lin/shape_size_material_color/5/checkpoints/results.json
+AIN,iraven,1,56.591696,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/1/checkpoints/results.json
+AIN,iraven,2,58.137542,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/2/checkpoints/results.json
+AIN,iraven,3,57.436422,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/3/checkpoints/results.json
+AIN,iraven,4,57.033909,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/4/checkpoints/results.json
+AIN,iraven,5,66.811433,results.json,metrics/iraven/general_composition_1/split_lin/size_type_color/5/checkpoints/results.json
+AIN,shapes3d,1,83.500432,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN,shapes3d,2,92.191662,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN,shapes3d,3,76.788869,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN,shapes3d,4,83.036094,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN,shapes3d,5,84.822789,results.json,metrics/shapes3d/general_composition_1/split_lin/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + LATTICE,cars3d,1,56.072831,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/1/checkpoints/results.json
+AIN + LATTICE,cars3d,2,55.008331,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/2/checkpoints/results.json
+AIN + LATTICE,cars3d,3,57.465391,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/3/checkpoints/results.json
+AIN + LATTICE,cars3d,4,57.697325,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/4/checkpoints/results.json
+AIN + LATTICE,cars3d,5,57.355719,results.json,metrics/cars3d/general_composition_1/lattice_ain_alg_l_1.5/elevation_type_orientation/5/checkpoints/results.json
+AIN + LATTICE,dsprites,1,69.460209,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/1/checkpoints/results.json
+AIN + LATTICE,dsprites,2,61.757372,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/2/checkpoints/results.json
+AIN + LATTICE,dsprites,3,70.638088,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/3/checkpoints/results.json
+AIN + LATTICE,dsprites,4,68.481645,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/4/checkpoints/results.json
+AIN + LATTICE,dsprites,5,65.909964,results.json,metrics/dsprites/general_composition_1/lattice_ain_alg_l_1.5/scale_shape_x-position_y-position/5/checkpoints/results.json
+AIN + LATTICE,mpi3d,1,53.442489,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + LATTICE,mpi3d,2,67.633705,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + LATTICE,mpi3d,3,56.262048,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + LATTICE,mpi3d,4,56.560227,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + LATTICE,mpi3d,5,55.681395,results.json,metrics/mpi3d/general_composition_1/lattice_ain_alg_l_1.5/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + LATTICE,clevr,1,61.104572,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/1/checkpoints/results.json
+AIN + LATTICE,clevr,2,58.545308,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/2/checkpoints/results.json
+AIN + LATTICE,clevr,3,61.014552,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/3/checkpoints/results.json
+AIN + LATTICE,clevr,4,62.121081,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/4/checkpoints/results.json
+AIN + LATTICE,clevr,5,59.726879,results.json,metrics/clevr/general_composition_1/lattice_ain_alg_l_1.5/shape_size_material_color/5/checkpoints/results.json
+AIN + LATTICE,iraven,1,79.317930,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/1/checkpoints/results.json
+AIN + LATTICE,iraven,2,86.536177,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/2/checkpoints/results.json
+AIN + LATTICE,iraven,3,79.408698,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/3/checkpoints/results.json
+AIN + LATTICE,iraven,4,75.905481,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/4/checkpoints/results.json
+AIN + LATTICE,iraven,5,61.265879,results.json,metrics/iraven/general_composition_1/lattice_ain_alg_l_1.5/size_type_color/5/checkpoints/results.json
+AIN + LATTICE,shapes3d,1,95.427596,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/1/checkpoints/results.json
+AIN + LATTICE,shapes3d,2,91.372372,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/2/checkpoints/results.json
+AIN + LATTICE,shapes3d,3,94.437960,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/3/checkpoints/results.json
+AIN + LATTICE,shapes3d,4,88.831874,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/4/checkpoints/results.json
+AIN + LATTICE,shapes3d,5,94.393545,results.json,metrics/shapes3d/general_composition_1/lattice_ain_alg_l_1.5/wall_floor_object_scale_shape/5/checkpoints/results.json
+AIN + learned d=64,cars3d,1,50.218770,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_64/elevation_type_orientation/1/wandb/run-20260411_214305-ozmz0ke3/run-ozmz0ke3.wandb
+AIN + learned d=64,cars3d,2,57.087739,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_64/elevation_type_orientation/2/wandb/run-20260411_230031-aejvjm8i/run-aejvjm8i.wandb
+AIN + learned d=64,cars3d,3,48.667136,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_64/elevation_type_orientation/3/wandb/run-20260412_001726-t9xscfag/run-t9xscfag.wandb
+AIN + learned d=64,cars3d,4,50.316235,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_64/elevation_type_orientation/4/wandb/run-20260412_013013-t9ke67n4/run-t9ke67n4.wandb
+AIN + learned d=64,cars3d,5,50.500298,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_64/elevation_type_orientation/5/wandb/run-20260412_024359-azlxft9a/run-azlxft9a.wandb
+AIN + learned d=64,dsprites,1,60.674549,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_64/scale_shape_x-position_y-position/1/wandb/run-20260412_124423-8ru2g4p2/run-8ru2g4p2.wandb
+AIN + learned d=64,dsprites,2,57.022445,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_64/scale_shape_x-position_y-position/2/wandb/run-20260412_174626-doid6ojk/run-doid6ojk.wandb
+AIN + learned d=64,dsprites,3,60.667945,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_64/scale_shape_x-position_y-position/3/wandb/run-20260412_224807-riv5bpmc/run-riv5bpmc.wandb
+AIN + learned d=64,dsprites,4,56.516754,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_64/scale_shape_x-position_y-position/4/wandb/run-20260413_035001-802h75rf/run-802h75rf.wandb
+AIN + learned d=64,dsprites,5,55.176582,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_64/scale_shape_x-position_y-position/5/wandb/run-20260413_181502-yhhkpla0/run-yhhkpla0.wandb
+AIN + learned d=64,mpi3d,1,55.997616,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_64/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + learned d=64,mpi3d,2,55.600015,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_64/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + learned d=64,mpi3d,3,52.979995,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_64/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + learned d=64,mpi3d,4,54.650298,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_64/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + learned d=64,mpi3d,5,57.102932,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_64/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + learned d=64,clevr,1,58.270696,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_64/shape_size_material_color/1/checkpoints/results.json
+AIN + learned d=64,clevr,2,58.698918,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_64/shape_size_material_color/2/checkpoints/results.json
+AIN + learned d=64,clevr,3,64.804652,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_64/shape_size_material_color/3/checkpoints/results.json
+AIN + learned d=64,clevr,4,56.623390,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_64/shape_size_material_color/4/checkpoints/results.json
+AIN + learned d=64,clevr,5,59.366141,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_64/shape_size_material_color/5/checkpoints/results.json
+AIN + learned d=64,iraven,1,68.789774,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_64/size_type_color/1/wandb/run-20260412_035745-b5tme9aq/run-b5tme9aq.wandb
+AIN + learned d=64,iraven,2,70.933752,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_64/size_type_color/2/wandb/run-20260412_053340-q1l6kgpi/run-q1l6kgpi.wandb
+AIN + learned d=64,iraven,3,70.404970,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_64/size_type_color/3/wandb/run-20260412_071130-h5i4mj0t/run-h5i4mj0t.wandb
+AIN + learned d=64,iraven,4,71.770718,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_64/size_type_color/4/wandb/run-20260412_085304-2cuj5f45/run-2cuj5f45.wandb
+AIN + learned d=64,iraven,5,64.714135,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_64/size_type_color/5/wandb/run-20260412_103228-w1pg448i/run-w1pg448i.wandb
+AIN + learned d=64,shapes3d,1,91.958095,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_64/wall_floor_object_scale_shape/1/wandb/run-20260412_171409-dith1d04/run-dith1d04.wandb
+AIN + learned d=64,shapes3d,2,89.187915,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_64/wall_floor_object_scale_shape/2/wandb/run-20260412_210711-zybz0h9b/run-zybz0h9b.wandb
+AIN + learned d=64,shapes3d,3,91.827103,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_64/wall_floor_object_scale_shape/3/wandb/run-20260413_010109-vne88i90/run-vne88i90.wandb
+AIN + learned d=64,shapes3d,4,85.406648,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_64/wall_floor_object_scale_shape/4/wandb/run-20260413_045952-nevm61lu/run-nevm61lu.wandb
+AIN + learned d=64,shapes3d,5,91.945661,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_64/wall_floor_object_scale_shape/5/wandb/run-20260413_090024-w0hesqii/run-w0hesqii.wandb
+AIN + learned d=128,cars3d,1,47.347054,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_128/elevation_type_orientation/1/wandb/run-20260411_214308-p5t3or3j/run-p5t3or3j.wandb
+AIN + learned d=128,cars3d,2,51.879883,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_128/elevation_type_orientation/2/wandb/run-20260411_230543-45s6ui5e/run-45s6ui5e.wandb
+AIN + learned d=128,cars3d,3,50.818639,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_128/elevation_type_orientation/3/wandb/run-20260412_002211-824hn3bw/run-824hn3bw.wandb
+AIN + learned d=128,cars3d,4,51.832205,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_128/elevation_type_orientation/4/wandb/run-20260412_013254-7j7wnl9v/run-7j7wnl9v.wandb
+AIN + learned d=128,cars3d,5,47.286785,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_128/elevation_type_orientation/5/wandb/run-20260412_024547-7twnusfw/run-7twnusfw.wandb
+AIN + learned d=128,dsprites,1,60.281322,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_128/scale_shape_x-position_y-position/1/wandb/run-20260412_125301-c4c1tcak/run-c4c1tcak.wandb
+AIN + learned d=128,dsprites,2,59.913310,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_128/scale_shape_x-position_y-position/2/wandb/run-20260412_175056-8avdh6fe/run-8avdh6fe.wandb
+AIN + learned d=128,dsprites,3,64.518563,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_128/scale_shape_x-position_y-position/3/wandb/run-20260412_225021-sqw4cug9/run-sqw4cug9.wandb
+AIN + learned d=128,dsprites,4,57.291800,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_128/scale_shape_x-position_y-position/4/wandb/run-20260413_035121-kdhnesq2/run-kdhnesq2.wandb
+AIN + learned d=128,dsprites,5,59.625144,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_128/scale_shape_x-position_y-position/5/wandb/run-20260413_181505-2z6sgmeg/run-2z6sgmeg.wandb
+AIN + learned d=128,mpi3d,1,54.658330,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_128/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + learned d=128,mpi3d,2,53.505479,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_128/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + learned d=128,mpi3d,3,54.560885,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_128/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + learned d=128,mpi3d,4,56.235626,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_128/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + learned d=128,mpi3d,5,57.562652,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_128/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + learned d=128,clevr,1,45.033981,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_128/shape_size_material_color/1/checkpoints/results.json
+AIN + learned d=128,clevr,2,68.177182,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_128/shape_size_material_color/2/checkpoints/results.json
+AIN + learned d=128,clevr,3,54.200477,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_128/shape_size_material_color/3/checkpoints/results.json
+AIN + learned d=128,clevr,4,58.464027,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_128/shape_size_material_color/4/checkpoints/results.json
+AIN + learned d=128,clevr,5,59.349692,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_128/shape_size_material_color/5/checkpoints/results.json
+AIN + learned d=128,iraven,1,78.194990,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_128/size_type_color/1/wandb/run-20260412_040207-lha1s6jq/run-lha1s6jq.wandb
+AIN + learned d=128,iraven,2,70.721174,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_128/size_type_color/2/wandb/run-20260412_054743-rrk2y0d1/run-rrk2y0d1.wandb
+AIN + learned d=128,iraven,3,69.296005,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_128/size_type_color/3/wandb/run-20260412_072558-c8x703io/run-c8x703io.wandb
+AIN + learned d=128,iraven,4,68.342902,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_128/size_type_color/4/wandb/run-20260412_090443-3zm8r66e/run-3zm8r66e.wandb
+AIN + learned d=128,iraven,5,66.547348,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_128/size_type_color/5/wandb/run-20260412_104045-cwafstdk/run-cwafstdk.wandb
+AIN + learned d=128,shapes3d,1,89.442421,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_128/wall_floor_object_scale_shape/1/wandb/run-20260412_171409-9cl22h2i/run-9cl22h2i.wandb
+AIN + learned d=128,shapes3d,2,90.980416,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_128/wall_floor_object_scale_shape/2/wandb/run-20260412_212057-yn1y52wf/run-yn1y52wf.wandb
+AIN + learned d=128,shapes3d,3,89.451976,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_128/wall_floor_object_scale_shape/3/wandb/run-20260413_013405-wnfqag3a/run-wnfqag3a.wandb
+AIN + learned d=128,shapes3d,4,90.320267,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_128/wall_floor_object_scale_shape/4/wandb/run-20260413_054051-hgt4tz00/run-hgt4tz00.wandb
+AIN + learned d=128,shapes3d,5,94.392640,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_128/wall_floor_object_scale_shape/5/wandb/run-20260413_094358-cqacia5f/run-cqacia5f.wandb
+AIN + learned d=256,cars3d,1,52.283865,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_256/elevation_type_orientation/1/wandb/run-20260411_214316-m31mxqth/run-m31mxqth.wandb
+AIN + learned d=256,cars3d,2,50.145720,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_256/elevation_type_orientation/2/wandb/run-20260411_230802-9b4hblha/run-9b4hblha.wandb
+AIN + learned d=256,cars3d,3,49.888606,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_256/elevation_type_orientation/3/wandb/run-20260412_003234-8tlzrp03/run-8tlzrp03.wandb
+AIN + learned d=256,cars3d,4,48.128879,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_256/elevation_type_orientation/4/wandb/run-20260412_015039-03ir6i0x/run-03ir6i0x.wandb
+AIN + learned d=256,cars3d,5,53.565603,"wandb history (val_acc, >=)",metrics/cars3d/general_composition_1/split_resnet_mixer_red_iid_256/elevation_type_orientation/5/wandb/run-20260412_030640-4kq5qsxs/run-4kq5qsxs.wandb
+AIN + learned d=256,dsprites,1,57.394459,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_256/scale_shape_x-position_y-position/1/wandb/run-20260412_130632-q1sielvb/run-q1sielvb.wandb
+AIN + learned d=256,dsprites,2,63.562212,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_256/scale_shape_x-position_y-position/2/wandb/run-20260412_180912-zz6cr8h7/run-zz6cr8h7.wandb
+AIN + learned d=256,dsprites,3,56.684050,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_256/scale_shape_x-position_y-position/3/wandb/run-20260412_230830-ftuhwszj/run-ftuhwszj.wandb
+AIN + learned d=256,dsprites,4,52.616507,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_256/scale_shape_x-position_y-position/4/wandb/run-20260413_041317-1u4uqh2a/run-1u4uqh2a.wandb
+AIN + learned d=256,dsprites,5,55.986848,"wandb history (val_acc, >=)",metrics/dsprites/general_composition_1/split_resnet_mixer_red_iid_256/scale_shape_x-position_y-position/5/wandb/run-20260413_181510-sip6fuut/run-sip6fuut.wandb
+AIN + learned d=256,mpi3d,1,55.274917,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_256/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+AIN + learned d=256,mpi3d,2,55.009850,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_256/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+AIN + learned d=256,mpi3d,3,60.984587,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_256/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+AIN + learned d=256,mpi3d,4,54.453928,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_256/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+AIN + learned d=256,mpi3d,5,55.799344,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_red_iid_256/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+AIN + learned d=256,clevr,1,47.778273,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_256/shape_size_material_color/1/checkpoints/results.json
+AIN + learned d=256,clevr,2,58.881818,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_256/shape_size_material_color/2/checkpoints/results.json
+AIN + learned d=256,clevr,3,62.224024,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_256/shape_size_material_color/3/checkpoints/results.json
+AIN + learned d=256,clevr,4,32.407720,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_256/shape_size_material_color/4/checkpoints/results.json
+AIN + learned d=256,clevr,5,64.302937,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_red_iid_256/shape_size_material_color/5/checkpoints/results.json
+AIN + learned d=256,iraven,1,68.429589,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_256/size_type_color/1/wandb/run-20260412_042039-sfd9oo0d/run-sfd9oo0d.wandb
+AIN + learned d=256,iraven,2,68.246001,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_256/size_type_color/2/wandb/run-20260412_060705-wgni1pjf/run-wgni1pjf.wandb
+AIN + learned d=256,iraven,3,74.061135,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_256/size_type_color/3/wandb/run-20260412_075241-ih2cmjay/run-ih2cmjay.wandb
+AIN + learned d=256,iraven,4,68.952346,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_256/size_type_color/4/wandb/run-20260412_093658-jen9odcl/run-jen9odcl.wandb
+AIN + learned d=256,iraven,5,77.915042,"wandb history (val_acc, >=)",metrics/iraven/general_composition_1/split_resnet_mixer_red_iid_256/size_type_color/5/wandb/run-20260412_113328-353tvsxf/run-353tvsxf.wandb
+AIN + learned d=256,shapes3d,1,94.333317,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_256/wall_floor_object_scale_shape/1/wandb/run-20260412_204752-9qtb74jc/run-9qtb74jc.wandb
+AIN + learned d=256,shapes3d,2,87.625191,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_256/wall_floor_object_scale_shape/2/wandb/run-20260413_004817-riyefudo/run-riyefudo.wandb
+AIN + learned d=256,shapes3d,3,90.394244,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_256/wall_floor_object_scale_shape/3/wandb/run-20260413_045159-ado8iw19/run-ado8iw19.wandb
+AIN + learned d=256,shapes3d,4,91.111326,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_256/wall_floor_object_scale_shape/4/wandb/run-20260413_085501-x0miv8nq/run-x0miv8nq.wandb
+AIN + learned d=256,shapes3d,5,95.309588,"wandb history (val_acc, >=)",metrics/shapes3d/general_composition_1/split_resnet_mixer_red_iid_256/wall_floor_object_scale_shape/5/wandb/run-20260413_130544-o1iaufdf/run-o1iaufdf.wandb
+ED,cars3d,1,50.378227,results.json,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/1/checkpoints/results.json
+ED,cars3d,2,48.483840,results.json,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/2/checkpoints/results.json
+ED,cars3d,3,49.511336,results.json,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/3/checkpoints/results.json
+ED,cars3d,4,47.836867,results.json,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/4/checkpoints/results.json
+ED,cars3d,5,49.914360,results.json,metrics/cars3d/general_composition_1/split_4_lin/elevation_type_orientation/5/checkpoints/results.json
+ED,dsprites,1,70.327909,results.json,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED,dsprites,2,70.523822,results.json,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED,dsprites,3,66.793073,results.json,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED,dsprites,4,70.943463,results.json,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED,dsprites,5,71.376913,results.json,metrics/dsprites/general_composition_1/split_4_lin/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED,mpi3d,1,75.015530,results.json,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED,mpi3d,2,72.684861,results.json,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED,mpi3d,3,56.421427,results.json,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED,mpi3d,4,69.223522,results.json,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED,mpi3d,5,71.269044,results.json,metrics/mpi3d/general_composition_1/split_4_lin/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED,clevr,1,49.378150,results.json,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/1/checkpoints/results.json
+ED,clevr,2,51.204109,results.json,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/2/checkpoints/results.json
+ED,clevr,3,58.505146,results.json,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/3/checkpoints/results.json
+ED,clevr,4,51.934182,results.json,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/4/checkpoints/results.json
+ED,clevr,5,40.604113,results.json,metrics/clevr/general_composition_1/split_4_lin/shape_size_material_color/5/checkpoints/results.json
+ED,iraven,1,67.116255,results.json,metrics/iraven/general_composition_1/split_4_lin/size_type_color/1/checkpoints/results.json
+ED,iraven,2,74.064885,results.json,metrics/iraven/general_composition_1/split_4_lin/size_type_color/2/checkpoints/results.json
+ED,iraven,3,70.812284,results.json,metrics/iraven/general_composition_1/split_4_lin/size_type_color/3/checkpoints/results.json
+ED,iraven,4,72.777368,results.json,metrics/iraven/general_composition_1/split_4_lin/size_type_color/4/checkpoints/results.json
+ED,iraven,5,67.690233,results.json,metrics/iraven/general_composition_1/split_4_lin/size_type_color/5/checkpoints/results.json
+ED,shapes3d,1,89.202818,results.json,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED,shapes3d,2,89.508892,results.json,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED,shapes3d,3,82.052232,results.json,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED,shapes3d,4,96.321213,results.json,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED,shapes3d,5,93.788498,results.json,metrics/shapes3d/general_composition_1/split_4_lin/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + LATTICE,cars3d,1,39.771609,results.json,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/1/checkpoints/results.json
+ED + LATTICE,cars3d,2,38.025813,results.json,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/2/checkpoints/results.json
+ED + LATTICE,cars3d,3,38.367227,results.json,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/3/checkpoints/results.json
+ED + LATTICE,cars3d,4,38.670296,results.json,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/4/checkpoints/results.json
+ED + LATTICE,cars3d,5,35.163814,results.json,metrics/cars3d/general_composition_1/split_resnet_mixer_alg_s4/elevation_type_orientation/5/checkpoints/results.json
+ED + LATTICE,dsprites,1,63.709297,results.json,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + LATTICE,dsprites,2,61.561660,results.json,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + LATTICE,dsprites,3,66.488297,results.json,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + LATTICE,dsprites,4,62.484191,results.json,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + LATTICE,dsprites,5,68.293137,results.json,metrics/dsprites/general_composition_1/split_resnet_mixer_alg_s4/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + LATTICE,mpi3d,1,71.041664,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + LATTICE,mpi3d,2,68.166039,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + LATTICE,mpi3d,3,70.655640,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + LATTICE,mpi3d,4,54.486232,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + LATTICE,mpi3d,5,56.632593,results.json,metrics/mpi3d/general_composition_1/split_resnet_mixer_alg_s4/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + LATTICE,clevr,1,64.563669,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/1/checkpoints/results.json
+ED + LATTICE,clevr,2,61.784203,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/2/checkpoints/results.json
+ED + LATTICE,clevr,3,62.097290,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/3/checkpoints/results.json
+ED + LATTICE,clevr,4,44.659722,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/4/checkpoints/results.json
+ED + LATTICE,clevr,5,59.511669,results.json,metrics/clevr/general_composition_1/split_resnet_mixer_alg_s4/shape_size_material_color/5/checkpoints/results.json
+ED + LATTICE,iraven,1,74.273183,results.json,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/1/checkpoints/results.json
+ED + LATTICE,iraven,2,72.084504,results.json,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/2/checkpoints/results.json
+ED + LATTICE,iraven,3,78.470290,results.json,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/3/checkpoints/results.json
+ED + LATTICE,iraven,4,82.101593,results.json,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/4/checkpoints/results.json
+ED + LATTICE,iraven,5,78.165810,results.json,metrics/iraven/general_composition_1/split_resnet_mixer_alg_s4/size_type_color/5/checkpoints/results.json
+ED + LATTICE,shapes3d,1,91.132826,results.json,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + LATTICE,shapes3d,2,94.199038,results.json,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + LATTICE,shapes3d,3,89.921802,results.json,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + LATTICE,shapes3d,4,88.592688,results.json,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + LATTICE,shapes3d,5,85.657968,results.json,metrics/shapes3d/general_composition_1/split_resnet_mixer_alg_s4/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + learned d=64,cars3d,1,48.606101,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp64/elevation_type_orientation/1/checkpoints/results.json
+ED + learned d=64,cars3d,2,47.335804,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp64/elevation_type_orientation/2/checkpoints/results.json
+ED + learned d=64,cars3d,3,51.577389,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp64/elevation_type_orientation/3/checkpoints/results.json
+ED + learned d=64,cars3d,4,46.211226,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp64/elevation_type_orientation/4/checkpoints/results.json
+ED + learned d=64,cars3d,5,46.687874,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp64/elevation_type_orientation/5/checkpoints/results.json
+ED + learned d=64,dsprites,1,53.641097,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp64/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + learned d=64,dsprites,2,57.132708,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp64/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + learned d=64,dsprites,3,48.190958,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp64/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + learned d=64,dsprites,4,44.735167,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp64/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + learned d=64,dsprites,5,40.461506,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp64/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + learned d=64,mpi3d,1,49.942505,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp64/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + learned d=64,mpi3d,2,53.039803,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp64/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + learned d=64,mpi3d,3,50.816761,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp64/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + learned d=64,mpi3d,4,67.717945,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp64/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + learned d=64,mpi3d,5,65.990807,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp64/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + learned d=64,clevr,1,59.508879,results.json,metrics/clevr/general_composition_1/ed_mixer_rp64/shape_size_material_color/1/checkpoints/results.json
+ED + learned d=64,clevr,2,58.069950,results.json,metrics/clevr/general_composition_1/ed_mixer_rp64/shape_size_material_color/2/checkpoints/results.json
+ED + learned d=64,clevr,3,61.982159,results.json,metrics/clevr/general_composition_1/ed_mixer_rp64/shape_size_material_color/3/checkpoints/results.json
+ED + learned d=64,clevr,4,58.003647,results.json,metrics/clevr/general_composition_1/ed_mixer_rp64/shape_size_material_color/4/checkpoints/results.json
+ED + learned d=64,clevr,5,56.297154,results.json,metrics/clevr/general_composition_1/ed_mixer_rp64/shape_size_material_color/5/checkpoints/results.json
+ED + learned d=64,iraven,1,71.566808,results.json,metrics/iraven/general_composition_1/ed_mixer_rp64/size_type_color/1/checkpoints/results.json
+ED + learned d=64,iraven,2,77.278082,results.json,metrics/iraven/general_composition_1/ed_mixer_rp64/size_type_color/2/checkpoints/results.json
+ED + learned d=64,iraven,3,78.974505,results.json,metrics/iraven/general_composition_1/ed_mixer_rp64/size_type_color/3/checkpoints/results.json
+ED + learned d=64,iraven,4,64.678588,results.json,metrics/iraven/general_composition_1/ed_mixer_rp64/size_type_color/4/checkpoints/results.json
+ED + learned d=64,iraven,5,78.566461,results.json,metrics/iraven/general_composition_1/ed_mixer_rp64/size_type_color/5/checkpoints/results.json
+ED + learned d=64,shapes3d,1,92.720585,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp64/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + learned d=64,shapes3d,2,96.384508,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp64/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + learned d=64,shapes3d,3,97.477343,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp64/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + learned d=64,shapes3d,4,98.211033,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp64/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + learned d=64,shapes3d,5,98.797039,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp64/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + learned d=128,cars3d,1,49.889946,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp128/elevation_type_orientation/1/checkpoints/results.json
+ED + learned d=128,cars3d,2,48.752011,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp128/elevation_type_orientation/2/checkpoints/results.json
+ED + learned d=128,cars3d,3,50.294502,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp128/elevation_type_orientation/3/checkpoints/results.json
+ED + learned d=128,cars3d,4,49.389266,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp128/elevation_type_orientation/4/checkpoints/results.json
+ED + learned d=128,cars3d,5,48.375317,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp128/elevation_type_orientation/5/checkpoints/results.json
+ED + learned d=128,dsprites,1,51.127449,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp128/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + learned d=128,dsprites,2,52.156242,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp128/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + learned d=128,dsprites,3,45.501609,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp128/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + learned d=128,dsprites,4,41.187924,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp128/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + learned d=128,dsprites,5,48.003450,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp128/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + learned d=128,mpi3d,1,51.697570,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp128/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + learned d=128,mpi3d,2,63.555891,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp128/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + learned d=128,mpi3d,3,65.922258,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp128/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + learned d=128,mpi3d,4,61.849518,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp128/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + learned d=128,mpi3d,5,56.566245,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp128/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + learned d=128,clevr,1,65.834525,results.json,metrics/clevr/general_composition_1/ed_mixer_rp128/shape_size_material_color/1/checkpoints/results.json
+ED + learned d=128,clevr,2,61.623913,results.json,metrics/clevr/general_composition_1/ed_mixer_rp128/shape_size_material_color/2/checkpoints/results.json
+ED + learned d=128,clevr,3,59.704633,results.json,metrics/clevr/general_composition_1/ed_mixer_rp128/shape_size_material_color/3/checkpoints/results.json
+ED + learned d=128,clevr,4,53.302552,results.json,metrics/clevr/general_composition_1/ed_mixer_rp128/shape_size_material_color/4/checkpoints/results.json
+ED + learned d=128,clevr,5,51.914432,results.json,metrics/clevr/general_composition_1/ed_mixer_rp128/shape_size_material_color/5/checkpoints/results.json
+ED + learned d=128,iraven,1,66.569533,results.json,metrics/iraven/general_composition_1/ed_mixer_rp128/size_type_color/1/checkpoints/results.json
+ED + learned d=128,iraven,2,75.222878,results.json,metrics/iraven/general_composition_1/ed_mixer_rp128/size_type_color/2/checkpoints/results.json
+ED + learned d=128,iraven,3,75.563414,results.json,metrics/iraven/general_composition_1/ed_mixer_rp128/size_type_color/3/checkpoints/results.json
+ED + learned d=128,iraven,4,77.071448,results.json,metrics/iraven/general_composition_1/ed_mixer_rp128/size_type_color/4/checkpoints/results.json
+ED + learned d=128,iraven,5,68.438895,results.json,metrics/iraven/general_composition_1/ed_mixer_rp128/size_type_color/5/checkpoints/results.json
+ED + learned d=128,shapes3d,1,87.499599,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp128/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + learned d=128,shapes3d,2,97.147184,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp128/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + learned d=128,shapes3d,3,97.245237,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp128/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + learned d=128,shapes3d,4,95.873386,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp128/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + learned d=128,shapes3d,5,94.358711,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp128/wall_floor_object_scale_shape/5/checkpoints/results.json
+ED + learned d=256,cars3d,1,50.854301,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp256/elevation_type_orientation/1/checkpoints/results.json
+ED + learned d=256,cars3d,2,49.633024,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp256/elevation_type_orientation/2/checkpoints/results.json
+ED + learned d=256,cars3d,3,51.222427,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp256/elevation_type_orientation/3/checkpoints/results.json
+ED + learned d=256,cars3d,4,45.955644,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp256/elevation_type_orientation/4/checkpoints/results.json
+ED + learned d=256,cars3d,5,47.665969,results.json,metrics/cars3d/general_composition_1/ed_mixer_rp256/elevation_type_orientation/5/checkpoints/results.json
+ED + learned d=256,dsprites,1,39.894779,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp256/scale_shape_x-position_y-position/1/checkpoints/results.json
+ED + learned d=256,dsprites,2,44.524046,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp256/scale_shape_x-position_y-position/2/checkpoints/results.json
+ED + learned d=256,dsprites,3,43.903889,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp256/scale_shape_x-position_y-position/3/checkpoints/results.json
+ED + learned d=256,dsprites,4,55.286045,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp256/scale_shape_x-position_y-position/4/checkpoints/results.json
+ED + learned d=256,dsprites,5,52.954102,results.json,metrics/dsprites/general_composition_1/ed_mixer_rp256/scale_shape_x-position_y-position/5/checkpoints/results.json
+ED + learned d=256,mpi3d,1,49.805744,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp256/color_shape_height_bgcolor_x-axis_y-axis/1/checkpoints/results.json
+ED + learned d=256,mpi3d,2,49.809388,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp256/color_shape_height_bgcolor_x-axis_y-axis/2/checkpoints/results.json
+ED + learned d=256,mpi3d,3,57.459301,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp256/color_shape_height_bgcolor_x-axis_y-axis/3/checkpoints/results.json
+ED + learned d=256,mpi3d,4,59.425494,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp256/color_shape_height_bgcolor_x-axis_y-axis/4/checkpoints/results.json
+ED + learned d=256,mpi3d,5,49.778899,results.json,metrics/mpi3d/general_composition_1/ed_mixer_rp256/color_shape_height_bgcolor_x-axis_y-axis/5/checkpoints/results.json
+ED + learned d=256,clevr,1,58.807659,results.json,metrics/clevr/general_composition_1/ed_mixer_rp256/shape_size_material_color/1/checkpoints/results.json
+ED + learned d=256,clevr,2,52.516230,results.json,metrics/clevr/general_composition_1/ed_mixer_rp256/shape_size_material_color/2/checkpoints/results.json
+ED + learned d=256,clevr,3,61.996990,results.json,metrics/clevr/general_composition_1/ed_mixer_rp256/shape_size_material_color/3/checkpoints/results.json
+ED + learned d=256,clevr,4,61.413622,results.json,metrics/clevr/general_composition_1/ed_mixer_rp256/shape_size_material_color/4/checkpoints/results.json
+ED + learned d=256,clevr,5,63.385257,results.json,metrics/clevr/general_composition_1/ed_mixer_rp256/shape_size_material_color/5/checkpoints/results.json
+ED + learned d=256,iraven,1,72.921506,results.json,metrics/iraven/general_composition_1/ed_mixer_rp256/size_type_color/1/checkpoints/results.json
+ED + learned d=256,iraven,2,65.942257,results.json,metrics/iraven/general_composition_1/ed_mixer_rp256/size_type_color/2/checkpoints/results.json
+ED + learned d=256,iraven,3,70.456063,results.json,metrics/iraven/general_composition_1/ed_mixer_rp256/size_type_color/3/checkpoints/results.json
+ED + learned d=256,iraven,4,83.558711,results.json,metrics/iraven/general_composition_1/ed_mixer_rp256/size_type_color/4/checkpoints/results.json
+ED + learned d=256,iraven,5,55.247672,results.json,metrics/iraven/general_composition_1/ed_mixer_rp256/size_type_color/5/checkpoints/results.json
+ED + learned d=256,shapes3d,1,86.543252,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp256/wall_floor_object_scale_shape/1/checkpoints/results.json
+ED + learned d=256,shapes3d,2,95.668393,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp256/wall_floor_object_scale_shape/2/checkpoints/results.json
+ED + learned d=256,shapes3d,3,94.660148,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp256/wall_floor_object_scale_shape/3/checkpoints/results.json
+ED + learned d=256,shapes3d,4,97.329403,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp256/wall_floor_object_scale_shape/4/checkpoints/results.json
+ED + learned d=256,shapes3d,5,91.211743,results.json,metrics/shapes3d/general_composition_1/ed_mixer_rp256/wall_floor_object_scale_shape/5/checkpoints/results.json
